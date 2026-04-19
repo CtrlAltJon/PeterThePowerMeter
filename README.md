@@ -64,7 +64,6 @@ To optimize GPIO usage, a PCF8574 I/O expander is employed for digital signal ma
 The device supports 2 power input options and 1 input 230VAC for Voltage reading:
 
 * **Terminal Block (J1):** Accepts a +5VDC regulated supply.
-    > [!CAUTION]
     > **⚠️ No reverse polarity protection:** This input currently lacks reverse polarity protection; correct orientation is mandatory.
     <p align="center">
       <a href="/Images/Guide/Guide_J1.png">
