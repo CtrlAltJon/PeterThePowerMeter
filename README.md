@@ -17,7 +17,6 @@
 >
 > **IF YOU ARE NOT EXPERIENCED IN WORKING WITH MAINS VOLTAGE, DO NOT ATTEMPT TO BUILD THIS PROJECT.**
 
----
 
 ## Assembly Layout: TOP Layer
 <p align="center">
@@ -32,12 +31,10 @@
     <img src="/Images/Guide/Guide_Assembly-Bottom.png" width="300" alt="Assembly Layout Bottom">
   </a>
 </p>
----
 
 ## Revision History
 * **00:** First release (04/2026)
 
----
 
 ## Design Rationale & Project Overview
 
@@ -95,7 +92,6 @@ This device is specifically designed and calibrated for 230VAC/50Hz Phase-Neutra
 * **Frequency Specificity:** The system is tuned for 50Hz operation. While the magnetic components (TR1 and CT) can physically handle 60Hz, the firmware's sampling window and RMS calculation algorithms are optimized for a 20ms period.
 * **Warning:** Operation on different grid standards, high-voltage industrial lines, or Phase-to-Phase configurations (without a neutral line) may exceed the safety ratings of the components and the fuse, leading to hardware failure or fire hazard.
 
----
 
 ## 2.0 Connectivity & Software Integration
 The firmware architecture features a built-in Web Server for real-time monitoring, local configuration, and connections management (Wi-Fi and MQTT). The device natively supports the MQTT protocol for a smart home integration with platforms such as Home Assistant.
@@ -137,7 +133,6 @@ The device features a responsive Web UI. Users can connect via browser to the de
 * **MQTT Setup (Optional):** Broker IP, Port, and Authentication.
 * **Buttons:** Save & Reboot, Reboot, Firmware Update (OTA), Home.
 
----
 
 ## Manufacturing & Assembly Notes
 
@@ -148,7 +143,6 @@ The device features a responsive Web UI. Users can connect via browser to the de
 
 **Safety Design:** To prevent assembly errors, the PCB layout utilizes a shared common pad for both R16 and R17. This physical constraint makes it nearly impossible to populate both resistors simultaneously, effectively protecting the +3.3V rail from a direct short circuit to Ground. However, be careful when assembling.
 
----
 
 ## Dimensions
 <p align="center">
@@ -156,3 +150,19 @@ The device features a responsive Web UI. Users can connect via browser to the de
     <img src="/Images/Guide/Guide_Dimensions.png" width="300" alt="Dimensions">
   </a>
 </p>
+
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to [open an issue](https://github.com/CtrlAltJon/UnifiDreamMachine/issues) or submit a pull request.
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+## Author
+
+CtrlAltJon
