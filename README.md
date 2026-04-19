@@ -20,11 +20,14 @@
 ---
 
 ## Assembly Layout: TOP Layer
-*(Inserire qui l'immagine del Top Layer)*
+<a href="/Images/Guide/Guide_Assembly-Top.png" target="_blank">
+  <img src="/Images/Guide/Guide_Assembly-Top.png" width="300" alt="Assembly Layout Top">
+</a>
 
 ## Assembly Layout: BOTTOM Layer
-*(Inserire qui l'immagine del Bottom Layer)*
-
+<a href="/Images/Guide/Guide_Assembly-Bottom.png" target="_blank">
+  <img src="/Images/Guide/Guide_Assembly-Bottom.png" width="300" alt="Assembly Layout Bottom">
+</a>
 ---
 
 ## Revision History
@@ -58,12 +61,18 @@ The device supports 2 power input options and 1 input 230VAC for Voltage reading
 
 * **Terminal Block (J1):** Accepts a +5VDC regulated supply.
     * *Warning - No reverse polarity protection:* This input currently lacks reverse polarity protection; correct orientation is mandatory.
+    <a href="/Images/Guide/Guide_J1.png" target="_blank">
+      <img src="/Images/Guide/Guide_J1.png" width="600" alt="J1 No reverse polarity protection">
+    </a>
 * **USB Connector (J2):** For secondary power or debugging.
     * *Communication & Debugging:* This interface utilizes a CH340G USB-to-Serial bridge and a UMH3NFHATN transistor pair to communicate with the ESP8266. This setup enables full debugging, serial communication, and firmware programming (automatic reset/bootloader entry).
     * *Safety Feature:* The board implements a dual Schottky diode protection circuit on the positive rails of both J1 and J2. This prevents back-feeding, though it is recommended to disconnect J1 when using USB power.
     * *Overcurrent Protection:* The +5VDC main rail is protected by a MF-NSMF050-2 PTC (Resettable Fuse) rated at 500mA.
 * **AC Voltage Input (J3):** High-voltage input for the ZMPT107-1 transformer.
     * *Polarity Recommendation:* Although the transformer operates on AC, it is strictly recommended to respect the Phase (L) and Neutral (N) markings.
+    <a href="/Images/Guide/Guide_J2.png" target="_blank">
+      <img src="/Images/Guide/Guide_J2.png" width="600" alt="J2 High-voltage input">
+    </a>
     * *Safety Rationale:* The protection fuse is located exclusively on the Phase line. Inverting the polarity would mean that, in the event of a fault or a blown fuse, the Neutral line would be disconnected while the entire internal circuit remains energized (live) through the Phase line. This creates a severe electrocution hazard even when the device appears to be non-functional.
     * *Safety Design:* The circuit features a 250mA T (Slow-blow) fuse placed exclusively on the Phase line. Additionally, the line is equipped with three resistors in series designed to limit the current to 1mA RMS at 230V, providing an essential layer of protection for the sensing stage.
 
@@ -130,4 +139,6 @@ The device features a responsive Web UI. Users can connect via browser to the de
 ---
 
 ## Dimensions
-*(Inserire qui lo schema delle dimensioni)*
+<a href="/Images/Guide/Guide_Dimensions.png" target="_blank">
+  <img src="/Images/Guide/Guide_Dimensions.png" width="300" alt="Dimensions">
+</a>
