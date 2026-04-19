@@ -66,14 +66,13 @@ The device supports 2 power input options and 1 input 230VAC for Voltage reading
 * **Terminal Block (J1):** Accepts a +5VDC regulated supply.
 
 > [!CAUTION]
-> **No reverse polarity protection:** This input currently lacks reverse polarity protection.
+> **No reverse polarity protection:** This input currently lacks reverse polarity protection; correct orientation is mandatory.
 
-    * Correct orientation is mandatory.
-    <p align="center">
-      <a href="/Images/Guide/Guide_J1.png">
-        <img src="/Images/Guide/Guide_J1.png" width="200" alt="J1 No reverse polarity protection">
-      </a>
-    </p>
+<p align="center">
+  <a href="/Images/Guide/Guide_J1.png">
+    <img src="/Images/Guide/Guide_J1.png" width="200" alt="J1 No reverse polarity protection">
+  </a>
+</p>
 
 * **USB Connector (J2):** For secondary power or debugging.
     * *Communication & Debugging:* This interface utilizes a CH340G USB-to-Serial bridge and a UMH3NFHATN transistor pair to communicate with the ESP8266. This setup enables full debugging, serial communication, and firmware programming (automatic reset/bootloader entry).
