@@ -82,6 +82,7 @@ The device supports 2 power input options and 1 input 230VAC for Voltage reading
         <img src="/Images/Guide/Guide_J3.png" width="200" alt="J3 High-voltage input">
       </a>
     </p>
+    
     * *Safety Rationale:* The protection fuse is located exclusively on the Phase line. Inverting the polarity would mean that, in the event of a fault or a blown fuse, the Neutral line would be disconnected while the entire internal circuit remains energized (live) through the Phase line. This creates a severe electrocution hazard even when the device appears to be non-functional.
     * *Safety Design:* The circuit features a 250mA T (Slow-blow) fuse placed exclusively on the Phase line. Additionally, the line is equipped with three resistors in series designed to limit the current to 1mA RMS at 230V, providing an essential layer of protection for the sensing stage.
 
