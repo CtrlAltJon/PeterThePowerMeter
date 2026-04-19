@@ -67,7 +67,7 @@ The device supports 2 power input options and 1 input 230VAC for Voltage reading
     * *Warning - No reverse polarity protection:* This input currently lacks reverse polarity protection; correct orientation is mandatory.
     <p align="center">
       <a href="/Images/Guide/Guide_J1.png">
-        <img src="/Images/Guide/Guide_J1.png" width="100" alt="J1 No reverse polarity protection">
+        <img src="/Images/Guide/Guide_J1.png" width="200" alt="J1 No reverse polarity protection">
       </a>
     </p>
 * **USB Connector (J2):** For secondary power or debugging.
@@ -77,8 +77,8 @@ The device supports 2 power input options and 1 input 230VAC for Voltage reading
 * **AC Voltage Input (J3):** High-voltage input for the ZMPT107-1 transformer.
     * *Polarity Recommendation:* Although the transformer operates on AC, it is strictly recommended to respect the Phase (L) and Neutral (N) markings.
     <p align="center">
-      <a href="/Images/Guide/Guide_J2.png">
-        <img src="/Images/Guide/Guide_J2.png" width="100" alt="J2 High-voltage input">
+      <a href="/Images/Guide/Guide_J3.png">
+        <img src="/Images/Guide/Guide_J3.png" width="200" alt="J3 High-voltage input">
       </a>
     </p>
     * *Safety Rationale:* The protection fuse is located exclusively on the Phase line. Inverting the polarity would mean that, in the event of a fault or a blown fuse, the Neutral line would be disconnected while the entire internal circuit remains energized (live) through the Phase line. This creates a severe electrocution hazard even when the device appears to be non-functional.
