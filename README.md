@@ -1,4 +1,4 @@
-# POWER METER 
+# Peter The Power Meter
 ### with ESP8266 and ADS1115
 
 ## Disclaimer
