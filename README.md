@@ -153,54 +153,54 @@ The device features a responsive Web UI. Users can connect via browser to the de
 </p>
 
 ## 4.0 Firmware
-Peter The Power Meter has an embedded firmware designed for real-time single-phase energy monitoring. The system samples AC voltage and current waveforms, calculates Root Mean Square (RMS) values and active power consumption, provides a multi-page visual interface on a TFT display, and integrates with home automation systems via the MQTT protocol[cite: 1].
+Peter The Power Meter has an embedded firmware designed for real-time single-phase energy monitoring. The system samples AC voltage and current waveforms, calculates Root Mean Square (RMS) values and active power consumption, provides a multi-page visual interface on a TFT display, and integrates with home automation systems via the MQTT protocol.
 
 ### Technical Specifications
-* **Language:** C++ (Standard C++11/14)[cite: 1].
-* **Framework:** Arduino Core for ESP8266[cite: 1].
-* **Development Environment:** PlatformIO[cite: 1].
-* **Core Hardware:** Espressif ESP8266 (e.g., Wemos D1 Mini)[cite: 1].
-* **Data Acquisition:** External ADS1115 16-bit ADC connected via I2C for high-precision differential sampling[cite: 1].
-* **Sensor Support:** Current Transformers (SCT-013), Voltage Transformers (ZMPT107-1), and PTC temperature sensors (TFPT1206)[cite: 1].
+* **Language:** C++ (Standard C++11/14).
+* **Framework:** Arduino Core for ESP8266.
+* **Development Environment:** PlatformIO.
+* **Core Hardware:** Espressif ESP8266 (e.g., Wemos D1 Mini).
+* **Data Acquisition:** External ADS1115 16-bit ADC connected via I2C for high-precision differential sampling.
+* **Sensor Support:** Current Transformers (SCT-013), Voltage Transformers (ZMPT107-1), and PTC temperature sensors (TFPT1206).
 
 ### Key Features
-* **High-Speed Sampling & RMS Calculation:** Performs rapid sampling of sinusoidal signals to calculate precise Voltage RMS, Current RMS, and Active Power (W) over a sliding 1-second window[cite: 1].
-* **Display Management:** Features a multi-page User Interface on an ST7735 (0.96" TFT) display; includes real-time power trend graphs, connectivity status badges, and system information pages[cite: 1].
+* **High-Speed Sampling & RMS Calculation:** Performs rapid sampling of sinusoidal signals to calculate precise Voltage RMS, Current RMS, and Active Power (W) over a sliding 1-second window.
+* **Display Management:** Features a multi-page User Interface on an ST7735 (0.96" TFT) display; includes real-time power trend graphs, connectivity status badges, and system information pages.
 * **IoT & Home Automation:**
-    * **MQTT Telemetry:** Transmits energy data using a time-weighted average calculated over the publishing interval (default 20s)[cite: 1].
-    * **Home Assistant Integration:** Fully supports Auto-Discovery, automatically creating sensors and configuration entities (Select/Number) within Home Assistant[cite: 1].
-* **Embedded Web Server:** A built-in web portal protected by HTTP Basic Authentication allows users to configure WiFi credentials, MQTT settings, alarm thresholds, and perform fine sensor calibration (offset and scale)[cite: 1].
-* **Alarm System:** Manages a buzzer via a PCF8574 I/O expander with programmable modes (Continuous, Slow Pulse, Fast Pulse) triggered when power exceeds a user-defined threshold[cite: 1].
+    * **MQTT Telemetry:** Transmits energy data using a time-weighted average calculated over the publishing interval (default 20s).
+    * **Home Assistant Integration:** Fully supports Auto-Discovery, automatically creating sensors and configuration entities (Select/Number) within Home Assistant.
+* **Embedded Web Server:** A built-in web portal protected by HTTP Basic Authentication allows users to configure WiFi credentials, MQTT settings, alarm thresholds, and perform fine sensor calibration (offset and scale).
+* **Alarm System:** Manages a buzzer via a PCF8574 I/O expander with programmable modes (Continuous, Slow Pulse, Fast Pulse) triggered when power exceeds a user-defined threshold.
 * **Reliability & Maintenance:**
-    * **Resilient Connectivity:** Implements an exponential backoff strategy for WiFi and MQTT reconnection[cite: 1].
-    * **OTA Updates:** Supports Over-The-Air firmware updates through the web interface[cite: 1].
-    * **Localization:** Built-in multi-language support (English and Italian) using PROGMEM to optimize RAM usage[cite: 1].
+    * **Resilient Connectivity:** Implements an exponential backoff strategy for WiFi and MQTT reconnection.
+    * **OTA Updates:** Supports Over-The-Air firmware updates through the web interface.
+    * **Localization:** Built-in multi-language support (English and Italian) using PROGMEM to optimize RAM usage.
 
 ### 4.0.1 Sensor Calibration & Physics Guide (include/config.h)
-The following constants define how the raw electrical signals from the sensors are translated into human-readable values (Amps, Volts, Watts)[cite: 1].
+The following constants define how the raw electrical signals from the sensors are translated into human-readable values (Amps, Volts, Watts).
 
 #### Current Conversion (FACTOR_A_V)
-* **Description:** This is the scaling factor for the Current Transformer (CT). It converts the voltage measured by the ADC into RMS Amperes[cite: 1].
-* **Formula:** `I_RMS = V_ADC * FACTOR_A_V`[cite: 1].
-* **Configuration:** The `FACTOR_A_V` of 25.0f is set based on the characteristics of the SCT-013 current transformer[cite: 1].
+* **Description:** This is the scaling factor for the Current Transformer (CT). It converts the voltage measured by the ADC into RMS Amperes.
+* **Formula:** `I_RMS = V_ADC * FACTOR_A_V`.
+* **Configuration:** The `FACTOR_A_V` of 25.0f is set based on the characteristics of the SCT-013 current transformer.
 * **When to change:**
-    1. You replace the SCT-013 with a model that has a different Current/Voltage ratio (e.g., 30A/1V or 100A/50mA)[cite: 1].
-    2. You add or change an external burden resistor in parallel with the CT output[cite: 1].
+    1. You replace the SCT-013 with a model that has a different Current/Voltage ratio (e.g., 30A/1V or 100A/50mA).
+    2. You add or change an external burden resistor in parallel with the CT output.
 
 #### Voltage Conversion (FACTOR_V_V)
-* **Description:** This factor scales the low-voltage signal from the ZMPT107-1 transformer back to the actual grid voltage[cite: 1].
-* **Formula:** `V_Grid = V_ADC * FACTOR_V_V`[cite: 1].
-* **Configuration:** The `FACTOR_V_V` of 246.0f is derived directly from the ratio of the primary resistance (246KΩ) to the burden resistance (1KΩ)[cite: 1].
-* **When to change:** If you modify the scaling "divider" (e.g., changing series resistors on the Primary side or the burden resistor on the Secondary side)[cite: 1].
+* **Description:** This factor scales the low-voltage signal from the ZMPT107-1 transformer back to the actual grid voltage.
+* **Formula:** `V_Grid = V_ADC * FACTOR_V_V`.
+* **Configuration:** The `FACTOR_V_V` of 246.0f is derived directly from the ratio of the primary resistance (246KΩ) to the burden resistance (1KΩ).
+* **When to change:** If you modify the scaling "divider" (e.g., changing series resistors on the Primary side or the burden resistor on the Secondary side).
 
 #### ADC Precision & Sampling Rate
-* **ADC Precision:** `ADS_GAIN` (GAIN_TWO) sets the full-scale range to ±2.048V, with an `ADS_MULTIPLIER` of 0.0000625[cite: 1].
-* **Sampling Rate:** 860 Samples Per Second is the maximum stable rate for the ADS1115 and provides high fidelity for power calculations[cite: 1].
+* **ADC Precision:** `ADS_GAIN` (GAIN_TWO) sets the full-scale range to ±2.048V, with an `ADS_MULTIPLIER` of 0.0000625.
+* **Sampling Rate:** 860 Samples Per Second is the maximum stable rate for the ADS1115 and provides high fidelity for power calculations.
 
 #### Noise, Safety, and Temperature
-* **CURRENT_NOISE_FLOOR (0.002f):** A software filter that forces the current to 0.0A if the measured voltage is below 2mV[cite: 1].
-* **VOLTAGE_MIN_THRESHOLD (50.0f):** If the measured voltage is below 50V, the system assumes the sensor is faulty and falls back to 230V[cite: 1].
-* **Temperature Monitoring:** The firmware averages 10 readings (`PTC_AVG_SAMPLES`) to stabilize the PTC sensor data; if the temperature exceeds `TEMP_WARNING_THRESHOLD` (45.0°C), the display text turns RED[cite: 1].
+* **CURRENT_NOISE_FLOOR (0.002f):** A software filter that forces the current to 0.0A if the measured voltage is below 2mV.
+* **VOLTAGE_MIN_THRESHOLD (50.0f):** If the measured voltage is below 50V, the system assumes the sensor is faulty and falls back to 230V.
+* **Temperature Monitoring:** The firmware averages 10 readings (`PTC_AVG_SAMPLES`) to stabilize the PTC sensor data; if the temperature exceeds `TEMP_WARNING_THRESHOLD` (45.0°C), the display text turns RED.
 
 | Constant | Default Value | Unit | Description |
 | :--- | :--- | :--- | :--- |
@@ -212,12 +212,12 @@ The following constants define how the raw electrical signals from the sensors a
 | VOLTAGE_MIN_THRESHOLD | 50.0 | V | Voltage below which the system uses a fallback value. |
 
 ### 4.0.2 Per-device calibration limits (include/config.h)
-These constants define the acceptable range and default values for the calibration parameters stored in EEPROM[cite: 1].
+These constants define the acceptable range and default values for the calibration parameters stored in EEPROM.
 
-* **Scale Factors:** `CAL_SCALE_DEFAULT` is 1.0f (no correction), with a range between 0.1f and 10.0f[cite: 1].
-* **Voltage Offset Limits:** -500.0f to 500.0f Volts[cite: 1].
-* **Current Offset Limits:** -100.0f to 100.0f Amperes[cite: 1].
-* **Temperature Offset Limits:** -50.0f to 50.0f degrees Celsius[cite: 1].
+* **Scale Factors:** `CAL_SCALE_DEFAULT` is 1.0f (no correction), with a range between 0.1f and 10.0f.
+* **Voltage Offset Limits:** -500.0f to 500.0f Volts.
+* **Current Offset Limits:** -100.0f to 100.0f Amperes.
+* **Temperature Offset Limits:** -50.0f to 50.0f degrees Celsius.
 
 | Constant | Default/Range | Unit | Description |
 | :--- | :--- | :--- | :--- |
@@ -232,12 +232,12 @@ These constants define the acceptable range and default values for the calibrati
 | CAL_OFFSET_TEMP_MAX | 50.0f | °C | Maximum allowed temperature offset. |
 
 ### 4.0.3 PTC Calibration & Hardware (include/config.h)
-The device monitors internal temperature using the TFPT1206 series PTC sensor[cite: 1].
+The device monitors internal temperature using the TFPT1206 series PTC sensor.
 
-* **PTC_V_SOURCE:** 3.3f (Standard logic voltage)[cite: 1].
-* **PTC_R_PULLUP:** 33,000 Ω (Fixed resistor R7)[cite: 1].
-* **ADC Compensation:** Constants `PTC_R_DIVIDER_TOTAL` and `PTC_R_DIVIDER_LOAD` compensate for the voltage divider on the ESP8266 ADC input stage[cite: 1].
-* **Sensor Characteristics:** `PTC_NOMINAL_RES` (10,000 Ω at 25°C) and `PTC_COEFF` (0.00411) define the resistance-to-temperature curve[cite: 1].
+* **PTC_V_SOURCE:** 3.3f (Standard logic voltage).
+* **PTC_R_PULLUP:** 33,000 Ω (Fixed resistor R7).
+* **ADC Compensation:** Constants `PTC_R_DIVIDER_TOTAL` and `PTC_R_DIVIDER_LOAD` compensate for the voltage divider on the ESP8266 ADC input stage.
+* **Sensor Characteristics:** `PTC_NOMINAL_RES` (10,000 Ω at 25°C) and `PTC_COEFF` (0.00411) define the resistance-to-temperature curve.
 
 | Constant | Default Value | Unit | Description |
 | :--- | :--- | :--- | :--- |
