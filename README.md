@@ -205,7 +205,7 @@ The following constants define how the raw electrical signals from the sensors a
 | Constant | Default Value | Unit | Description |
 | :--- | :--- | :--- | :--- |
 | FACTOR_A_V | 25.0 | A/V | Ratio of Amps per Volt from the CT circuit. |
-| FACTOR_V_V | 240.0 | V/V | Ratio of Grid Volts per Volt from the VT circuit. |
+| FACTOR_V_V | 246.0 | V/V | Ratio of Grid Volts per Volt from the VT circuit. |
 | ADS_GAIN | GAIN_TWO | - | Sets ADC input range to ±2.048V. |
 | ADS_SPS | 860 | Hz | Samples taken per second from the AC wave. |
 | CURRENT_NOISE_FLOOR | 0.002 | V | Minimum voltage to consider a valid current reading. |
