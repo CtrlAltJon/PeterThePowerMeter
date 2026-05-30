@@ -3,7 +3,7 @@
 // It handles initialization, page rendering, status updates, and visual feedback for the user interface.
 //
 // Author: CtrlAltJon
-// Last Updated: January 2026
+// Last Updated: June 2026
 // Copyright (c) 2026 CtrlAltJon
 // License: MIT
 // The software is provided "as is", without warranty of any kind.
@@ -199,11 +199,11 @@ void updateDisplay() {
       tft.setFreeFont(&FreeSans9pt7b);                                    // Set a smaller font for the unit "kW"
       tft.setTextColor(Layout::COL_GRAY_TEXT, Layout::COL_BLACK);         // Set text color for the unit
       tft.setTextDatum(TR_DATUM);                                         // Alignment for the unit (top right)
-      tft.drawString("kW", Layout::SCREEN_W - 5, 57);           // Draw the unit "kW" under the power value, aligned to the right with a small margin
+      tft.drawString("kW", Layout::SCREEN_W - 5, 57);                     // Draw the unit "kW" under the power value, aligned to the right with a small margin
                                                                           // --- Temperature ---
       char tempStr[10];                                                   // Buffer for the temperature string to be displayed
       char tempVal[10];                                                   // Buffer for the numeric values
-      uint16_t tempColor = Layout::COL_GREEN;                       // Color of the temperature text
+      uint16_t tempColor = Layout::COL_GREEN;                             // Color of the temperature text
 
       if (isnan(sysState.temperature)) {
         tempColor = Layout::COL_RED;                                      // Red color to indicate sensor error

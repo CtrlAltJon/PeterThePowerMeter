@@ -3,7 +3,7 @@
 // Includes configuration structs and shared object instances like the WebServer and MQTT Client.
 //
 // Author: CtrlAltJon
-// Last Updated: January 2026
+// Last Updated: June 2026
 // Copyright (c) 2026 CtrlAltJon
 // License: MIT
 // The software is provided "as is", without warranty of any kind.
