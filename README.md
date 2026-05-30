@@ -252,6 +252,10 @@ The device monitors internal temperature using the TFPT1206 series PTC sensor.
 Contributions, issues, and feature requests are welcome!
 Feel free to [open an issue](https://github.com/CtrlAltJon/PeterThePowerMeter/issues) or submit a pull request.
 
+## Coming Soon
+I am currently in the process of refining and cleaning up the firmware comments to ensure the code is as clear and readable as possible, even though the project is fully functional.
+I am also polishing the documentation and preparing additional guides that I'll upload to the repository soon.
+
 
 ## License
 
