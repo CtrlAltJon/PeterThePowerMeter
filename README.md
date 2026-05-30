@@ -1,7 +1,7 @@
-# Peter The Power Meter
+# ⚡ Peter The Power Meter
 ### with ESP8266 and ADS1115
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 > [!CAUTION]
 > ### ⚠️ IMPORTANT SAFETY WARNING & DISCLAIMER
@@ -18,11 +18,11 @@
 > **IF YOU ARE NOT EXPERIENCED IN WORKING WITH MAINS VOLTAGE, DO NOT ATTEMPT TO BUILD THIS PROJECT.**
 
 
-## Revision History
-* **00:** First release (04/2026)
+## 📜 Revision History
+* **00:** First release (30/05/2026)
 
 
-## Design Rationale & Project Overview
+## 💡 Design Rationale & Project Overview
 
 ### 1.1 System Architecture
 This project is a Digital Power Meter designed for real-time energy monitoring with acoustic alarm when a threshold is exceeded. The system architecture is based on the ESP8266 (ESP-12F) microcontroller, leveraging its Wi-Fi capabilities for IoT integration and an ADS1115 to read voltage and current. For system health, an onboard TFPT1206L1002DV temperature sensor is included to monitor the internal thermal conditions of the enclosure.
@@ -80,7 +80,7 @@ This device is specifically designed and calibrated for 230VAC/50Hz Phase-Neutra
 * **Warning:** Operation on different grid standards, high-voltage industrial lines, or Phase-to-Phase configurations (without a neutral line) may exceed the safety ratings of the components and the fuse, leading to hardware failure or fire hazard.
 
 
-## 2.0 Connectivity & Software Integration
+## 🌐 2.0 Connectivity & Software Integration
 The firmware architecture features a built-in Web Server for real-time monitoring, local configuration, and connections management (Wi-Fi and MQTT). The device natively supports the MQTT protocol for a smart home integration with platforms such as Home Assistant.
 
 ### 2.0.1 LCD User Interface (Vertical Orientation)
@@ -121,7 +121,7 @@ The device features a responsive Web UI. Users can connect via browser to the de
 * **Buttons:** Save & Reboot, Reboot, Firmware Update (OTA), Home.
 
 
-## Manufacturing & Assembly Notes
+## 🛠️ Manufacturing & Assembly Notes
 
 ### 3.0 Hardware Configuration
 **ADS1115 I2C Address Selection:** Hardware-defined through two "0-Ohm bridge" resistors: R16 and R17. Only one of these resistors must be populated at a time:
@@ -152,7 +152,7 @@ The device features a responsive Web UI. Users can connect via browser to the de
   </a>
 </p>
 
-## 4.0 Firmware
+## 💻 4.0 Firmware
 Peter The Power Meter has an embedded firmware designed for real-time single-phase energy monitoring. The system samples AC voltage and current waveforms, calculates Root Mean Square (RMS) values and active power consumption, provides a multi-page visual interface on a TFT display, and integrates with home automation systems via the MQTT protocol.
 
 ### Technical Specifications
@@ -247,21 +247,21 @@ The device monitors internal temperature using the TFPT1206 series PTC sensor.
 | PTC_COEFF | 0.00411 | - | TCR (Temperature Coefficient) of the sensor. |
 | PTC_R_DIVIDER_TOTAL | 100,220 | Ω | ADC input stage total resistance ($R_{21} + R_{22}$). |
 
-## Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 Feel free to [open an issue](https://github.com/CtrlAltJon/PeterThePowerMeter/issues) or submit a pull request.
 
-## Coming Soon
+## 🔜 Coming Soon
 I am currently in the process of refining and cleaning up the firmware comments to ensure the code is as clear and readable as possible, even though the project is fully functional.
 I am also polishing the documentation and preparing additional guides that I'll upload to the repository soon.
 
 
-## License
+## 📝 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
-## Author
+## 👤 Author
 
 CtrlAltJon
