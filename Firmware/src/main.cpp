@@ -6,7 +6,7 @@
 // It has a web interface to configure the device configuration.
 //
 // Author: CtrlAltJon
-// Last Updated: January 2026
+// Last Updated: June 2026
 // Copyright (c) 2026 CtrlAltJon
 // License: MIT
 // The software is provided "as is", without warranty of any kind.
@@ -235,7 +235,7 @@ void wifiSetup() {
 // (power, current, voltage, and buzzer mode) to the MQTT broker, allowing Home Assistant to automatically discover and integrate
 // the device and its sensors without manual configuration.
 void mqttPublishDiscovery() {
-  static char payload[512];                                                // MQTT payload buffer
+  static char payload[512];                                               // MQTT payload buffer
   char topic[128];                                                        // MQTT topic buffer
   const char* prefix = (strlen(sysConfig.ha_prefix) > 0) ? sysConfig.ha_prefix : DEFAULT_HA_PREFIX;
   char mqttDeviceId[33];

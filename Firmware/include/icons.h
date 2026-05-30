@@ -1,21 +1,21 @@
 #ifndef ICONS_H
 #define ICONS_H
 
-#include <Arduino.h>
-#include "config.h"
- 
 // ###########################################################################################################################
 // Header for icons definitions.
 // Defines bitmap data for various icons used in the display.
 //
 // Author: CtrlAltJon
-// Last Updated: January 2026
+// Last Updated: June 2026
 // Copyright (c) 2026 CtrlAltJon
 // License: MIT
 // The software is provided "as is", without warranty of any kind.
 // This license notice must be included in any copy or portion of the software.
 //
 // ###########################################################################################################################
+
+#include <Arduino.h>
+#include "config.h"
  
 // Macro to simplify drawing bitmaps (K=Black, W=White, G=Green, R=Grey, etc.)
 // They refer to the colors centralized in layout.h
