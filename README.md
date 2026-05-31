@@ -1,6 +1,12 @@
 # ⚡ Peter The Power Meter
 ### with ESP8266 and ADS1115
 
+<p align="center">
+  <a href="/Images/guide-docs/view2.png">
+    <img src="/Images/guide-docs/view2.png" width="400" alt="Peter the power meter view 2">
+  </a>
+</p>
+
 ## ⚠️ Disclaimer
 
 > [!CAUTION]
@@ -40,6 +46,13 @@ The measurement stage utilizes two primary sensors:
 Both sensors provide a 1VAC sinusoidal output. These signals are conditioned via a voltage divider network and sampled by an ADS1115 16-bit ADC, which communicates with the MCU via the I2C protocol.
 
 ### 1.2 Hardware Features & User Interface
+
+<p align="center">
+  <a href="/Images/guide-docs/view1.png">
+    <img src="/Images/guide-docs/view1.png" width="400" alt="Peter the power meter view 1">
+  </a>
+</p>
+
 To optimize GPIO usage, a PCF8574 I/O expander is employed for digital signal management and future use. The user interface consists of:
 * **Buttons:** A multi-function navigation button (Short press: Page toggle | Long press: Confirm/Action) and a dedicated Pin-hole Hardware Reset button connected directly to Pin 1 (RST) of the ESP8266.
 * **Acoustic Feedback:** An active piezoelectric buzzer triggers an audible alarm when a software-defined power threshold is exceeded.
@@ -56,8 +69,8 @@ The device supports 2 power input options and 1 input 230VAC for Voltage reading
 > **No reverse polarity protection:** This input currently lacks reverse polarity protection; correct orientation is mandatory.
 
 <p align="center">
-  <a href="/Images/Guide/Guide_J1.png">
-    <img src="/Images/Guide/Guide_J1.png" width="200" alt="J1 No reverse polarity protection">
+  <a href="/Images/guide-docs/Guide_J1.png">
+    <img src="/Images/guide-docs/Guide_J1.png" width="200" alt="J1 No reverse polarity protection">
   </a>
 </p>
 
@@ -68,8 +81,8 @@ The device supports 2 power input options and 1 input 230VAC for Voltage reading
 * **AC Voltage Input (J3):** High-voltage input for the ZMPT107-1 transformer.
     * *Polarity Recommendation:* Although the transformer operates on AC, it is strictly recommended to respect the Phase (L) and Neutral (N) markings.
     <p align="center">
-      <a href="/Images/Guide/Guide_J3.png">
-        <img src="/Images/Guide/Guide_J3.png" width="200" alt="J3 High-voltage input">
+      <a href="/Images/guide-docs/Guide_J3.png">
+        <img src="/Images/guide-docs/Guide_J3.png" width="200" alt="J3 High-voltage input">
       </a>
     </p>
 
@@ -137,22 +150,22 @@ The device features a responsive Web UI. Users can connect via browser to the de
 
 ## Assembly Layout: TOP Layer
 <p align="center">
-  <a href="/Images/Guide/Guide_Assembly-Top.png">
-    <img src="/Images/Guide/Guide_Assembly-Top.png" width="300" alt="Assembly Layout Top">
+  <a href="/Images/guide-docs/Guide_Assembly-Top.png">
+    <img src="/Images/guide-docs/Guide_Assembly-Top.png" width="300" alt="Assembly Layout Top">
   </a>
 </p>
 
 ## Assembly Layout: BOTTOM Layer
 <p align="center">
-  <a href="/Images/Guide/Guide_Assembly-Bottom.png">
-    <img src="/Images/Guide/Guide_Assembly-Bottom.png" width="300" alt="Assembly Layout Bottom">
+  <a href="/Images/guide-docs/Guide_Assembly-Bottom.png">
+    <img src="/Images/guide-docs/Guide_Assembly-Bottom.png" width="300" alt="Assembly Layout Bottom">
   </a>
 </p>
 
 ## Dimensions
 <p align="center">
-  <a href="/Images/Guide/Guide_Dimensions.png">
-    <img src="/Images/Guide/Guide_Dimensions.png" width="300" alt="Dimensions">
+  <a href="/Images/guide-docs/Guide_Dimensions.png">
+    <img src="/Images/guide-docs/Guide_Dimensions.png" width="300" alt="Dimensions">
   </a>
 </p>
 
