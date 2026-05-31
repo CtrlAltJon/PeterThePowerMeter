@@ -26,7 +26,9 @@
 
 ### 1.1 System Architecture
 This project is a Digital Power Meter designed for real-time energy monitoring with acoustic alarm when a threshold is exceeded. The system is engineered to fit within a standard 1-module DIN rail enclosure (roughly the size of a standard miniature circuit breaker), making it ideal for integration into domestic electrical panels.
+
 *Note: At the moment, the 3D design/CAD file for the DIN enclosure is not available. Contributions regarding the design of a suitable enclosure are highly welcome and would be a valuable addition to this project.*
+
 The system architecture is based on the ESP8266 (ESP-12F) microcontroller, leveraging its Wi-Fi capabilities for IoT integration and an ADS1115 to read voltage and current. For system health, an onboard TFPT1206L1002DV temperature sensor is included to monitor the internal thermal conditions of the enclosure.
 
 For local interaction, the device features a 0.96" color LCD display that provides real-time data visualization and configuration menus. Users can navigate through multiple data pages and perform basic setup tasks using a multi-function physical button. Additionally, the system hosts a built-in Web Server, allowing for advanced remote configuration, firmware updates (OTA), and detailed system management via an intuitive Web UI.
