@@ -1,1 +1,17 @@
+# Build artifacts
+.pio/
+.build/
+.vs/
+.vscode/
+
+# Environment
+.env
+local.json
+
+# Compiled firmware
+*.bin
+*.elf
+*.map
+
+#Others
 OLD/
