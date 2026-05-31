@@ -75,7 +75,7 @@ The device supports 2 power input options and 1 input 230VAC for Voltage reading
 </p>
 
 * **USB Connector (J2):** For secondary power or debugging.
-    * *Communication & Debugging:* This interface utilizes a CH340G USB-to-Serial bridge and a UMH3NFHATN transistor pair to communicate with the ESP8266. This setup enables full debugging, serial communication, and firmware programming (automatic reset/bootloader entry).
+    * *Communication & Debugging:* This interface utilizes a CH340C USB-to-Serial bridge and a UMH3NFHATN transistor pair to communicate with the ESP8266. This setup enables full debugging, serial communication, and firmware programming (automatic reset/bootloader entry).
     * *Safety Feature:* The board implements a dual Schottky diode protection circuit on the positive rails of both J1 and J2. This prevents back-feeding, though it is recommended to disconnect J1 when using USB power.
     * *Overcurrent Protection:* The +5VDC main rail is protected by a MF-NSMF050-2 PTC (Resettable Fuse) rated at 500mA.
 * **AC Voltage Input (J3):** High-voltage input for the ZMPT107-1 transformer.
