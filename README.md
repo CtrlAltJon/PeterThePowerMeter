@@ -2,8 +2,8 @@
 ### with ESP8266 and ADS1115
 
 <p align="center">
-  <a href="/Images/guide-docs/view2.png">
-    <img src="/Images/guide-docs/view2.png" width="400" alt="Peter the power meter view 2">
+  <a href="/Images/guide-docs/view2.jpg">
+    <img src="/Images/guide-docs/view2.jpg" width="400" alt="Peter the power meter view 2">
   </a>
 </p>
 
@@ -48,8 +48,8 @@ Both sensors provide a 1VAC sinusoidal output. These signals are conditioned via
 ### 1.2 Hardware Features & User Interface
 
 <p align="center">
-  <a href="/Images/guide-docs/view1.png">
-    <img src="/Images/guide-docs/view1.png" width="400" alt="Peter the power meter view 1">
+  <a href="/Images/guide-docs/view1.jpg">
+    <img src="/Images/guide-docs/view1.jpg" width="400" alt="Peter the power meter view 1">
   </a>
 </p>
 
