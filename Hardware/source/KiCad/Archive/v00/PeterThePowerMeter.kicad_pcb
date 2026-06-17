@@ -9,9 +9,9 @@
 	(paper "A3")
 	(title_block
 		(title "Peter The Power Meter")
-		(date "2026-06-17")
-		(rev "01")
-		(company "CtrlAltJon")
+		(date "2026-05-30")
+		(rev "00")
+		(company "CtrlAltjon")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -34,7 +34,7 @@
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
-		(39 "User.1" user "Box.Enclosure")
+		(39 "User.1" user "Box.Measures")
 		(41 "User.2" user "Quotes")
 		(43 "User.3" user)
 		(45 "User.4" user)
@@ -84,13 +84,13 @@
 			(copper_finish "HAL SnPb")
 			(dielectric_constraints no)
 		)
-		(pad_to_mask_clearance 0.05)
+		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(aux_axis_origin 102 131)
+		(aux_axis_origin 24.7 184.5)
 		(grid_origin 102 131)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_555557df_575f55ff)
+			(layerselection 0x00000000_00000000_555557df_575ff5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
@@ -238,7 +238,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "RES 33kΩ ±1% 250mW 1206"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -251,7 +251,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "VISHAY CRCW120633K0FKEAC"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -264,23 +264,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C7233588"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0e62a55f-c41f-4924-a893-157d73b53970")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/c675bfda-3649-4586-b1b2-0ac320d3be8c")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -490,23 +477,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d4e5561e-728a-486a-b693-a964d4fdc008")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/1e3bd54d-c5d2-4b20-82b8-33f116931645")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -621,7 +595,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "RES 100kΩ ±1% 250mW 1206"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -633,7 +607,7 @@
 				)
 			)
 		)
-		(property "Description" "VISHAY CRCW1206100KFKEA"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -645,23 +619,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C844863"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4fc1bc84-78ea-4fd5-a0f7-35978ee4f51f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/8661576c-7c3b-4451-9f48-c3ca7a0c1a8c")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -754,7 +715,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D1"
-			(at -0.127 -2.105 90)
+			(at -0.127 -1.905 0)
 			(layer "F.SilkS")
 			(uuid "74b23131-d18c-413b-b7fc-95487e5e918f")
 			(effects
@@ -802,23 +763,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C110921"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "21db1826-b6f9-463d-a9e1-0f553216654b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "D*SOD?323F*")
 		(path "/d5867e6f-163d-4519-8afc-4ccc08f44b07")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.21 -1)
@@ -1073,7 +1021,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "RES 470Ω ±1% 250mW 1206"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1085,7 +1033,7 @@
 				)
 			)
 		)
-		(property "Description" "VISHAY CRCW1206470RFKEA"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1097,23 +1045,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C844876"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9391b546-fe0c-48dd-80c2-f1631f66c486")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/e9893e39-08ba-4cd6-ae66-003926b09977")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -1202,7 +1137,7 @@
 	(footprint "My_Lybrary_Footprint:Transformer_Zeming_ZMPT107"
 		(layer "F.Cu")
 		(uuid "12a70666-7cd6-4a12-9a46-66ddcf63d631")
-		(at 103.484 117.366 90)
+		(at 103.484 118.066 90)
 		(descr "Qingxian Zeming Langxi Electronic ZMPT101K voltage transformer 1000:1000 2mA:2mA, https://5krorwxhmqqirik.leadongcdn.com/ZMPT101K+specification-aidikBqoKomRilSkopqmikp.pdf")
 		(tags "voltage transformer ZMPT")
 		(property "Reference" "TR1"
@@ -1254,22 +1189,9 @@
 				)
 			)
 		)
-		(property "LCSC" "C125191"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a7b713ce-24d7-45cd-88ed-1d4638d5a947")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/a1565612-fdd7-4b59-8d45-429ba25c57fc")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.799 -0.762)
@@ -1464,7 +1386,7 @@
 		(descr "Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf")
 		(tags "Wi-Fi Module")
 		(property "Reference" "U2"
-			(at -7.56 13.78 90)
+			(at 7.54 13.58 0)
 			(layer "F.SilkS")
 			(uuid "4c6c299e-cd62-4642-a545-ff5b4b4a62b3")
 			(effects
@@ -1486,7 +1408,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Ai-Thinker ESP-12F(ESP8266MOD)"
+		(property "Datasheet" "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1498,7 +1420,7 @@
 				)
 			)
 		)
-		(property "Description" "2.4GHz ESP8266 Chip On-board PCB Antenna -90dBm SMD,24x16mm RF Transceiver Modules and Modems RoHS"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1510,23 +1432,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C82891"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3ab2db5-7961-47e5-91ae-40658749c613")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "ESP?12*")
 		(path "/e7b923f5-3076-4dcb-9f9f-182f2d13d3f9")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -8.12 -4.5)
@@ -1981,7 +1890,7 @@
 		(descr "SOIC, 16 Pin (JEDEC MS-012, variation AC, https://www.jedec.org/document_search?search_api_views_fulltext=MS-012, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow")
 		(property "Reference" "U3"
-			(at 3.6 -6.1 90)
+			(at 2.7 -6.1 0)
 			(layer "F.SilkS")
 			(uuid "4b4d715c-5cac-4aa9-81ef-af47f5e3d7e7")
 			(effects
@@ -2027,23 +1936,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C84681"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c27b287e-8533-438e-b89f-8535e47741f9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "SOIC*3.9x9.9mm*P1.27mm*")
 		(path "/82c845dd-c5b9-46c3-9d95-d4aa46d7ceb2")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.06 5.06)
@@ -2502,7 +2398,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/37fc9c58-8a5d-436f-8eca-448413186fe9")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(clearance 0.1)
 		(attr smd)
 		(fp_line
@@ -2873,7 +2769,7 @@
 		(descr "Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J15"
-			(at 1.885 -3.17 90)
+			(at 1.785 -3.17 90)
 			(layer "F.SilkS")
 			(uuid "529d9723-c993-4233-868f-0be6585ec627")
 			(effects
@@ -2922,7 +2818,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/37a8e2e6-6300-41a8-b1cf-8b2a4e30077b")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.39 1.27)
@@ -3240,7 +3136,7 @@
 		(descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J22"
-			(at 5.285 10.23 90)
+			(at -0.015 -2.47 0)
 			(layer "F.SilkS")
 			(uuid "9cf00834-1ade-4945-8181-144f71cf116b")
 			(effects
@@ -3289,7 +3185,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9c2911f5-3487-4b01-83d3-b0f6982ca7dd")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.27 -1.27)
@@ -3969,23 +3865,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e7339001-b189-4586-a4ad-e9080beba4d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/e2b64881-d724-4402-8a75-f6ad8b15d890")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -4078,7 +3961,7 @@
 		(descr "SOT, 6 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=170, JEDEC MO-203, variant AB, https://www.jedec.org/document_search?search_api_views_fulltext=MO-203), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD SC-88 SOT-363 SC-70-6 US6 UMT6 S-Mini6 TSSOP6")
 		(property "Reference" "U4"
-			(at 0.06 -2.27 270)
+			(at 0.36 -2.27 180)
 			(layer "F.SilkS")
 			(uuid "a483aa65-808d-4be2-8b2f-d67d042906cb")
 			(effects
@@ -4100,7 +3983,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "ROHM UMH3NFHATN"
+		(property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4137,23 +4020,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C3194552"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f661ce58-5d39-4620-b7ad-eedbd190fd7b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "SOT?363*")
 		(path "/c52ff621-586f-42a4-aa67-01b174dda881")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.599252 -1.11)
@@ -4420,7 +4290,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "120"
 			(at 0 1.83 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4432,7 +4302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-071KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4444,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 1kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4456,23 +4326,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C131398"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0cfe6165-81b2-4ce4-8fa7-4cb41d869824")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/67f204ea-33c1-461b-9ad6-82cd2b53208a")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -4613,23 +4470,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C86781"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8db83d6f-26a9-4421-98c6-46b90884f304")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/89c143f2-5d8a-466a-bb0c-26bd0cb29f25")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.85 3.41)
@@ -4903,23 +4747,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6183fef6-d0e6-4856-8d6c-0e3f3b791af9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/b7359a13-9e69-45ae-bda2-39cfd01d2278")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -5084,23 +4915,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C5184433"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "25aa53e5-b442-4ecd-9831-d82048d02353")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/5951f4e0-a6e7-468f-8871-82f2d6acd487")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.76 1.56)
@@ -5439,7 +5257,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Samsung Electro-Mechanics CL31A226KOCLNNC"
+		(property "Datasheet" "CL31A226KOCLNNC"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5476,23 +5294,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C318754"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70acea3e-a1a9-4632-9313-e38091ff44d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/984464d4-6e13-4b04-9ff6-a4f8352c396b")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -5607,7 +5412,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -5620,7 +5425,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -5633,23 +5438,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "db8ea85d-68ff-4106-9029-89059bb68e75")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/73e1bed3-2419-4bed-83fe-0745ba7f3ca6")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -5822,7 +5614,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-071KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5834,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 1kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5846,23 +5638,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C131398"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0642f6b8-dd14-4139-b0e8-521cba2128c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/bb8382a8-2270-4e40-8c72-80c47760f074")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -5977,7 +5756,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5989,7 +5768,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6001,23 +5780,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6f47fc9d-49a1-42e3-874a-d26c0c610988")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/d40547e2-d502-47e1-92fa-01f38d755f33")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -6195,27 +5961,14 @@
 				)
 			)
 		)
-		(property "LCSC" "C90074"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b00ffbb-e0bf-4e20-a721-bd9b6f687958")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/566177e7-bf94-4f3b-bc8c-c41bd18c9401")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -1 8.1796)
-			(end 1 8.1796)
+			(start -1 10.11)
+			(end 1 10.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6224,8 +5977,8 @@
 			(uuid "462cbc38-977e-41f6-bb80-8a758da89a8c")
 		)
 		(fp_line
-			(start -0.75 6.6796)
-			(end -1 8.1796)
+			(start -0.75 8.61)
+			(end -1 10.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6234,8 +5987,8 @@
 			(uuid "04146b89-adaa-44ea-9b3c-86339127e09c")
 		)
 		(fp_line
-			(start 0.75 6.6796)
-			(end -0.75 6.6796)
+			(start 0.75 8.61)
+			(end -0.75 8.61)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6244,8 +5997,8 @@
 			(uuid "a39b9e34-7976-40e0-96e0-d2618baae3e1")
 		)
 		(fp_line
-			(start 1 8.1796)
-			(end 0.75 6.6796)
+			(start 1 10.11)
+			(end 0.75 8.61)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6254,8 +6007,8 @@
 			(uuid "b4e3a33e-6e0b-4817-b8f2-f7b4de1679e0")
 		)
 		(fp_line
-			(start 4 8.1796)
-			(end 6 8.1796)
+			(start 4 10.11)
+			(end 6 10.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6264,8 +6017,8 @@
 			(uuid "2dd3f4a5-1944-476d-97b3-843e271b4da9")
 		)
 		(fp_line
-			(start 4.25 6.6796)
-			(end 4 8.1796)
+			(start 4.25 8.61)
+			(end 4 10.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6274,8 +6027,8 @@
 			(uuid "2e0a3475-5267-4091-9a41-974ddba44853")
 		)
 		(fp_line
-			(start 5.75 6.6796)
-			(end 4.25 6.6796)
+			(start 5.75 8.61)
+			(end 4.25 8.61)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6284,8 +6037,8 @@
 			(uuid "fa1bfa9c-568b-4a13-b5fd-bdfbd9261a39")
 		)
 		(fp_line
-			(start 6 8.1796)
-			(end 5.75 6.6796)
+			(start 6 10.11)
+			(end 5.75 8.61)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6295,7 +6048,7 @@
 		)
 		(fp_rect
 			(start -3.61 -2.11)
-			(end 8.61 8.1796)
+			(end 8.61 10.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6305,8 +6058,8 @@
 			(uuid "4c93d5bb-2dca-46dc-b69b-20ebba77a0b8")
 		)
 		(fp_rect
-			(start -3.61 6.3528)
-			(end 8.61 8.1528)
+			(start -3.61 6.81)
+			(end 8.61 8.61)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6370,7 +6123,7 @@
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
-			(size 1.9 2.6)
+			(size 1.9 2.8)
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -6411,7 +6164,7 @@
 		(descr "https://www.cui.com/product/resource/cpt-9019s-smt.pdf")
 		(tags "buzzer piezo")
 		(property "Reference" "BZ1"
-			(at 3.54 -5.685 90)
+			(at -3.66 5.715 90)
 			(layer "F.SilkS")
 			(uuid "14ef916d-f050-41ce-ad91-f6950cada538")
 			(effects
@@ -6459,23 +6212,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C49246960"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e02c4b25-a9b3-48af-934c-eced00e26acf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "*Buzzer*")
 		(path "/71bce0be-7abd-4b7c-96d6-06037eb907d1")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.6 4.6)
@@ -6826,23 +6566,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C110921"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f027bacb-5b4a-48a4-bcab-6297e8a833c6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "D*SOD?323F*")
 		(path "/1f306f93-12a0-4572-a842-4bd24d8d35f5")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.21 -1)
@@ -7097,7 +6824,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -7110,7 +6837,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -7123,23 +6850,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5517a9b9-80f7-4ae5-96b3-b903dd82cbd3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/811cdba0-6a46-4416-92ad-ea01b21100f1")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -7312,7 +7026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "±20% 16V 100uF Through Hole,D5xL11mm Aluminum Electrolytic Capacitors RoHS"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7324,7 +7038,7 @@
 				)
 			)
 		)
-		(property "Description" "ECA-1CHG101"
+		(property "Description" "Electrolytic Capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7336,23 +7050,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C1589590"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "93943ce2-cb57-47d9-b5ee-e1c1257d478b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CP_*")
 		(path "/f92025dd-581e-4ab2-9218-6eb3622a08fa")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.491 -0.402)
@@ -8841,7 +8542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -8854,7 +8555,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -8867,23 +8568,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1ad97e26-b02b-4458-83c6-49fe99c584dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/7f72471c-f734-48b8-9c36-d320873f6a4e")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -9036,7 +8724,6 @@
 		(property "Reference" "J10"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "c800cc92-6ea5-4547-bafc-74b803e50750")
 			(effects
 				(font
@@ -9084,8 +8771,68 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fb86b86c-1966-4a99-8f63-8da2fdd42e70")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 6.46)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5b5c91e3-871b-496b-b7cd-e7af175e6653")
+		)
+		(fp_line
+			(start -1.38 6.46)
+			(end 1.38 6.46)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a37e5250-03c2-4b29-8917-0769264e7e85")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e661a839-e4c1-40f1-bc60-25167f12511c")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 6.46)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fd2246ab-d898-4b63-a590-8034b3eba96d")
+		)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d3ba4a18-79f9-48e9-be87-0060a52f0a44")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "975ac19c-6b7e-43c2-ad67-f61e72c0701a")
+		)
 		(fp_rect
 			(start -1.77 -1.77)
 			(end 1.77 6.85)
@@ -9222,7 +8969,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 0 1.83 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9234,7 +8981,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "RES 220Ω ±1% 250mW 1206"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9246,7 +8993,7 @@
 				)
 			)
 		)
-		(property "Description" "YAGEO RC1206FR-07220RL"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9258,23 +9005,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C137353"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ccde7a80-0474-48ce-9f23-7ed5b7caaecf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/878717fc-69e9-492c-ac01-9c08303ad06e")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -9426,23 +9160,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7c555984-53aa-45d2-92d1-bf1964245d33")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/c007771b-1e1a-45b8-aa51-4c57e175ff7c")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -9557,7 +9278,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "LITEON LTW-150TK"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9569,7 +9290,7 @@
 				)
 			)
 		)
-		(property "Description" "LED WHITE 1206 SMD"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9581,23 +9302,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C133134"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "97b6b23c-6e4a-43c9-9a7d-7311a86b651d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d053f534-3f91-4676-b92e-a082e1d13f0f")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.285 1.135)
@@ -9788,7 +9496,7 @@
 		)
 		(path "/ea21faef-ff17-4eba-afe9-4b94456225df")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
@@ -10109,7 +9817,7 @@
 		(descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J11"
-			(at 1.885 -3.27 90)
+			(at 4.385 -2.27 0)
 			(layer "F.SilkS")
 			(uuid "a2e1288f-163f-489a-9913-d6b25bf38213")
 			(effects
@@ -10158,11 +9866,71 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2463e895-7874-4b8b-963c-980245ebdbe7")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start 10.15 5.51)
+			(end 4.15 5.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ce220355-9689-46f2-abc1-27be7237d205")
+		)
+		(fp_line
+			(start 10.15 4.65)
+			(end 10.15 5.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c854b9a2-82bc-4f5d-846b-baad2f6c4cfe")
+		)
+		(fp_line
+			(start 10.15 2.97)
+			(end 4.15 2.97)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "70831a27-2d1f-4751-a3ad-e63e407a0bcc")
+		)
+		(fp_line
+			(start 10.15 2.11)
+			(end 10.15 2.97)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "45d4b1c8-bd65-46b9-8379-dcc7d1c959f0")
+		)
+		(fp_line
+			(start 4.15 4.65)
+			(end 10.15 4.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "90315c68-16ce-41d5-96f4-169a6271caa3")
+		)
+		(fp_line
+			(start 4.15 2.11)
+			(end 10.15 2.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "23f494e9-4170-4846-b382-0fda02e0dedb")
+		)
+		(fp_line
 			(start 1.39 3.81)
-			(end 3.1496 3.81)
+			(end 4.15 3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10172,7 +9940,7 @@
 		)
 		(fp_line
 			(start 1.39 1.27)
-			(end 3.1496 1.27)
+			(end 4.15 1.27)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10261,8 +10029,19 @@
 			(uuid "bbb980c9-3109-4ce7-b49c-fc7fdbcb043f")
 		)
 		(fp_rect
+			(start 4.15 -0.43)
+			(end 10.15 0.43)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "feff9560-6904-4c6d-bac9-0b6079d01469")
+		)
+		(fp_rect
 			(start 1.39 -1.38)
-			(end 3.1848 6.46)
+			(end 4.15 6.46)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10624,7 +10403,7 @@
 		)
 		(path "/5e5bba34-2d65-4f1e-80da-7039c394e0a5")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
@@ -10967,7 +10746,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "SMD-4P,4.2x3.2m"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -10980,7 +10759,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST 1.57N SMD"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -10993,22 +10772,9 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C470426"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "73e0f319-607f-4377-82c7-f31b22d389db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/6a119ca3-2fdc-4ae9-87fb-c1248db34e4b")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.2 1.75)
@@ -11316,7 +11082,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -11329,7 +11095,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -11342,23 +11108,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6bcac369-4de6-4247-9be3-d84d63d74098")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/ff4f497a-2560-4684-8c9b-940a297c61a9")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -11473,7 +11226,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-07100RL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11485,7 +11238,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 100Ω ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11497,23 +11250,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C137392"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4bea899-9385-4f0f-9a2c-aa11f6954f47")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/912dea08-daf4-4f5c-925b-f2d565a77581")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -11674,7 +11414,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330R"
 			(at 0 1.83 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11686,7 +11426,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-07330RL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11698,7 +11438,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 330Ω ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11710,23 +11450,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C114944"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5813e294-2c6d-40b3-a080-162587b35409")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/57e8e5e1-2e97-4eaf-a620-f32b6f864a3e")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -11841,7 +11568,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11853,7 +11580,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11865,23 +11592,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "00e428f2-3d77-4c85-8de5-152a21e09690")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/590315aa-d378-4090-9523-882f218c308f")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -12033,23 +11747,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "535c229f-c35d-4517-912f-44a9bd4f8630")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/85ead784-3ca0-4cf9-9828-cd8732495729")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -12164,7 +11865,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "VISHAY TFPT1206L1002DV"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12177,7 +11878,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "125mW 10kΩ 1206 PTC Thermistors RoHS"
+		(property "Description" "125mW 10kΩ 1206 PTC Thermistors"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12190,23 +11891,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2154230"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f51ccc91-65d0-471e-b4c3-1517b091070d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/3a08f351-f44e-4658-a49f-7f4bccda989c")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -12442,27 +12130,14 @@
 				)
 			)
 		)
-		(property "LCSC" "C90074"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9f013d3d-44eb-4b6f-a763-2406dab726d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/2306c236-2145-487c-855e-2714d443d567")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 6.1016 8.2304)
-			(end 5.8516 6.7304)
+			(start 6 10.11)
+			(end 5.75 8.61)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12471,8 +12146,8 @@
 			(uuid "78c7dbb4-53cd-483d-8425-56ff74425d45")
 		)
 		(fp_line
-			(start 5.8516 6.7304)
-			(end 4.3516 6.7304)
+			(start 5.75 8.61)
+			(end 4.25 8.61)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12481,8 +12156,8 @@
 			(uuid "c2d9ff8e-3614-4f24-bfcb-46bf3e967220")
 		)
 		(fp_line
-			(start 4.3516 6.7304)
-			(end 4.1016 8.2304)
+			(start 4.25 8.61)
+			(end 4 10.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12491,8 +12166,8 @@
 			(uuid "29a8bd05-e8cb-4225-93b4-59382fadf434")
 		)
 		(fp_line
-			(start 4.1016 8.2304)
-			(end 6.1016 8.2304)
+			(start 4 10.11)
+			(end 6 10.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12501,8 +12176,8 @@
 			(uuid "28409192-24fd-4c22-9a75-faf40f79da4d")
 		)
 		(fp_line
-			(start 1.1016 8.2304)
-			(end 0.8516 6.7304)
+			(start 1 10.11)
+			(end 0.75 8.61)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12511,8 +12186,8 @@
 			(uuid "8dab7d57-8671-415b-86b1-15da834df5a1")
 		)
 		(fp_line
-			(start 0.8516 6.7304)
-			(end -0.6484 6.7304)
+			(start 0.75 8.61)
+			(end -0.75 8.61)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12521,8 +12196,8 @@
 			(uuid "ccd1eaa9-66fa-4758-9633-72f88137cf9a")
 		)
 		(fp_line
-			(start -0.6484 6.7304)
-			(end -0.8984 8.2304)
+			(start -0.75 8.61)
+			(end -1 10.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12531,8 +12206,8 @@
 			(uuid "0c198f8e-7d66-4fdf-9234-444e806c3cb1")
 		)
 		(fp_line
-			(start -0.8984 8.2304)
-			(end 1.1016 8.2304)
+			(start -1 10.11)
+			(end 1 10.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12541,19 +12216,8 @@
 			(uuid "d096e1c8-79f7-4ad0-bccf-30e14369db65")
 		)
 		(fp_rect
-			(start -3.61 -2.11)
-			(end 8.61 8.2304)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "f4515c25-ffc5-489d-af44-950225653dd3")
-		)
-		(fp_rect
-			(start -3.6252 6.4052)
-			(end 8.5948 8.2052)
+			(start -3.61 6.81)
+			(end 8.61 8.61)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12561,6 +12225,17 @@
 			(fill no)
 			(layer "F.SilkS")
 			(uuid "bb6b465f-fcc1-44f0-bff9-58a0a190561f")
+		)
+		(fp_rect
+			(start -3.61 -2.11)
+			(end 8.61 10.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "f4515c25-ffc5-489d-af44-950225653dd3")
 		)
 		(fp_rect
 			(start -4 -2.5)
@@ -12680,7 +12355,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Samsung Electro-Mechanics CL31B106KBHNNNE CAP CER MLCC 10uF 50V X7R 1206"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12692,7 +12367,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 10uF 50V X7R 1206"
+		(property "Description" "CL31B106KBHNNNE"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12717,23 +12392,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C89632"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b4417f07-1568-453c-b47b-15955d17d6c8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/537a6395-f544-41aa-97d8-277e0d08d967")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -12848,7 +12510,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12861,7 +12523,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12874,23 +12536,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a97645d5-47db-4f58-a881-03834d716787")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/0f009b5f-d231-4bf3-ad91-a2519052cadd")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -13041,7 +12690,7 @@
 		(descr "GCT Micro USB https://gct.co/files/drawings/usb3076.pdf")
 		(tags "Micro-USB SMD Typ-B GCT")
 		(property "Reference" "J2"
-			(at -5.7 -1 90)
+			(at -5.4 -1 0)
 			(layer "F.SilkS")
 			(uuid "e1ff88fd-dcd5-4333-8d49-fde6b6125711")
 			(effects
@@ -13089,23 +12738,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C6007475"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e0243f8-ca5b-4b2c-b0c8-596260eefcb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "USB*Micro*B*")
 		(path "/972c9ace-4142-4051-be87-778f7e1496fd")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.81 2.59)
@@ -13496,7 +13132,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "BOURNS MF-NSMF050-2"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13520,23 +13156,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C75464"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "79867502-5be4-40fe-9c62-737c30d21279")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_* RV_*")
 		(path "/369014e7-8837-4c78-a6b2-1efe7ccc31e3")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -13651,7 +13274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -13664,7 +13287,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -13677,23 +13300,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b7c50de-e8a2-4dce-93a0-645d9aa8e117")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/5e60046c-36e1-4b13-b1f1-83bc75cb1e6f")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -13866,7 +13476,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13878,7 +13488,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13890,23 +13500,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f553a4ca-0bdb-4b1f-85d5-598b15cf6229")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/24d22577-0b03-4e53-9601-165305466903")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -14057,7 +13654,7 @@
 		(descr "Through hole angled pin header, 1x05, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J20"
-			(at 5.275 -2.51 270)
+			(at -0.025 -2.51 180)
 			(layer "F.SilkS")
 			(uuid "f92f47f5-f9af-49fb-894c-ee7277d72f2c")
 			(effects
@@ -14106,7 +13703,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d996d9ee-8d4b-4ea4-bbdf-240c2a7e1ffe")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.27 -1.27)
@@ -14880,7 +14477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Samsung Electro-Mechanics CL31A226KOCLNNC"
+		(property "Datasheet" "CL31A226KOCLNNC"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14917,23 +14514,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C318754"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce5a28ad-fc68-435f-b40d-5b9093be0927")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/97c6caa4-91a3-49e4-ab39-620a7d711b99")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -15048,7 +14632,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "NXP PCF8574T/3,518"
+		(property "Datasheet" "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15060,7 +14644,7 @@
 				)
 			)
 		)
-		(property "Description" "Remote 8-bit I/O expander for I2C-bus with interrupt"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15072,23 +14656,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C7605"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cae6bd4b-db62-426c-b1cd-38fec992aff9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*7.5x10.3mm*P1.27mm*")
 		(path "/47258c59-7aaf-4b7a-9b7a-f69b1a27b904")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.86 -5.26)
@@ -15507,7 +15078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "±20% 16V 47uF 800mΩ Through Hole,D5xL11mm Aluminum Electrolytic Capacitors RoHS"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15519,7 +15090,7 @@
 				)
 			)
 		)
-		(property "Description" "EEU-FC1C470"
+		(property "Description" "Electrolytic Capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15531,23 +15102,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C1580807"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6ca412c6-7435-4f22-8e41-73e30da048c0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CP_*")
 		(path "/2776728b-af32-4a1e-9b23-eccc96c0f332")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.250241 -1.839)
@@ -17036,7 +16594,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "SMD-4P,4.2x3.2m"
+		(property "Datasheet" "3.2x4.2"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -17049,7 +16607,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST 1.57N SMD"
+		(property "Description" "WS-TASV SMT Tactile Switches 2.5mm 160g 50mA 16V Black"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -17062,7 +16620,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Note" "C470426"
+		(property "Note" "2 Alternative codes present in LCSC.com SKRPANE010 and C49234124"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17075,22 +16633,9 @@
 				)
 			)
 		)
-		(property "LCSC" "C470426"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ad2c5ee-4df3-46db-bf9b-1a13b1ec11fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/fbb53e59-1c9e-418a-bb0a-33ff18a6f0aa")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.2 -1.75)
@@ -17376,7 +16921,7 @@
 		(descr "Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electronics.com/en/products/WQP-PJ320E-177.html)")
 		(tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
 		(property "Reference" "J5"
-			(at 7.34 1.43 270)
+			(at 0.04 3.33 270)
 			(layer "F.SilkS")
 			(uuid "17b9bb5b-dc09-4241-abdd-77f4c7b177e0")
 			(effects
@@ -17398,7 +16943,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "HOOYA PJ-320E"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17411,7 +16956,7 @@
 				)
 			)
 		)
-		(property "Description" "3.5mm Headphone Jack Silver Through Hole Audio Connectors RoHS"
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17424,23 +16969,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C2939183"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bdf55823-07d8-4dc7-a9ff-e16a541366f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Jack*")
 		(path "/1278ceda-8b82-470a-a2a4-c466bafd3a76")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.4 2.1)
@@ -17474,7 +17006,7 @@
 		)
 		(fp_line
 			(start 5.2 -9.3)
-			(end 5.2 -10.2712)
+			(end 5.2 -12.1)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -17483,8 +17015,8 @@
 			(uuid "41585e92-619c-4b91-a5f6-90cd919bdc6a")
 		)
 		(fp_line
-			(start 5.2 -10.2712)
-			(end -0.6 -10.2712)
+			(start 5.2 -12.1)
+			(end -0.6 -12.1)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -17494,7 +17026,7 @@
 		)
 		(fp_line
 			(start -0.6 -9.3)
-			(end -0.6 -10.2712)
+			(end -0.6 -12.1)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -17819,7 +17351,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "RES 470Ω ±1% 250mW 1206"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17831,7 +17363,7 @@
 				)
 			)
 		)
-		(property "Description" "VISHAY CRCW1206470RFKEA"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17843,23 +17375,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C844876"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "95986aa6-3f36-4da2-afef-118b6c70296b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/2aab5804-8d47-4fba-86a4-0d0ffeb78d82")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -18069,23 +17588,10 @@
 				)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ebe6d848-2e08-4ca2-b961-c97f0c601884")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/90be18c3-7a2a-408c-a414-1a4f2425f5a4")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -18228,7 +17734,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c2747d40-c5ce-4131-9550-9ef8848e1c3c")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -1.77 -1.77)
@@ -18358,7 +17864,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -18371,7 +17877,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -18384,24 +17890,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3815caa0-a913-4275-a041-530381d3de64")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/4f41a381-0747-4281-9f94-0550a09f3b61")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -18559,24 +18051,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C89632"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "35dd18bb-bf42-4d06-830f-c32f8fb6673f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/08e62748-802b-4aff-a812-8a5b8ce4119c")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -18694,7 +18172,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -18707,7 +18185,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -18720,24 +18198,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "cdf30f27-b92c-4431-bf1c-5994f6e96b8e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/b584475c-bc70-42a1-8c43-3bc76ccf5243")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -18855,7 +18319,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -18868,7 +18332,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -18881,24 +18345,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "91c0ceec-58a8-4aaa-9d44-64a627d1c91b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/aaff5a89-82a9-4ba3-8101-9ac0becbfa64")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -18988,11 +18438,11 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "1fb8f8d2-7b41-4470-88bc-6f1ca54aa195")
-		(at 115.775 121.245 -90)
+		(at 115.875 121.245 -90)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R29"
-			(at -2 1.73 90)
+			(at 0 1.73 90)
 			(layer "B.SilkS")
 			(uuid "5e0301a2-221b-4350-8611-00d8598cfd84")
 			(effects
@@ -19042,24 +18492,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C870906"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8eca7f48-8bde-4261-875c-9e58d1e796ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/26521ee0-c8ca-4491-9f36-4be0381b1659")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -19177,7 +18613,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-070RL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19190,7 +18626,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 0Ω ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19203,24 +18639,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C137394"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e2af5e56-297e-454b-9d81-bf01bef3035a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/4684c066-30e7-41e2-9c67-7cc4a066d075")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -19378,24 +18800,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C89632"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6aaaf955-cc3c-440e-a53b-b06cd5d3bcd9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/ca09892a-d8d1-4cfe-8816-c44f9387fb86")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -19513,7 +18921,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "Samsung Electro-Mechanics CL31B106KBHNNNE"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19526,7 +18934,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "CAP CER 10uF 50V X7R 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19553,24 +18961,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C89632"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ea77efd3-5f84-48e7-b781-17d9e16e756f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/d00e30ee-bc0d-4dca-b3c9-df531b2568c8")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -19660,7 +19054,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "608f4c46-bbb5-4f70-b97c-28b59c2d46e1")
-		(at 113.835 116.075)
+		(at 113.835 116.575)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R30"
@@ -19714,24 +19108,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C870906"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a9b6b056-5984-4ebf-a128-5338da006472")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/00306366-651c-4453-a005-eb78a9f2adba")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -19889,24 +19269,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "788708ae-fab3-4c94-afd0-d673e43fb0b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/89b92cef-b72e-4e93-bf54-8f15d1bafc9f")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -20001,7 +19367,7 @@
 			(at 0 4.4704 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "c182dc12-6f8b-4e09-9fae-34a312b0f8fc")
+			(uuid "220ea33e-1879-4980-ad70-dc0789217c56")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -20014,7 +19380,7 @@
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "9b4b546a-0962-4450-8605-d5d317d64c7e")
+			(uuid "f23ae1ad-aa01-4387-9e6a-742c02f1d89a")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -20027,7 +19393,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e17cb68c-4a42-4392-b795-ba4df1c11ee8")
+			(uuid "0d0ae5bd-b148-404b-a06a-5f6033d0abe0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20040,7 +19406,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ad2335aa-03ca-407f-b61e-b5d090d2e18e")
+			(uuid "17f11c52-dbdf-4575-abd1-9338b3e5ea07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20051,7 +19417,7 @@
 		)
 		(path "/dc460452-b2da-4d48-9678-4ad75a78ea7b")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
@@ -20398,7 +19764,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -20411,7 +19777,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -20424,24 +19790,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "40b6cbd6-ff31-4026-a4c3-bfe936b6b575")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/545f1ccf-6f1f-4f75-ae2d-cff6ee3757fe")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -20589,7 +19941,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b79dae83-0c3f-4619-a016-43a2be3d788c")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -1.77 1.77)
@@ -20770,24 +20122,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3018540"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5df12e5d-cc37-4b27-bd23-ac1e312a968e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/f60b7742-b839-4a10-8c38-644f611a4b0f")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -21075,7 +20413,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/28b28437-d7a5-4b8a-873a-82dba8e0d21a")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -1.77 1.77)
@@ -21239,7 +20577,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21252,7 +20590,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21265,24 +20603,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132649"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0350826f-1ddb-4b2c-a944-3139cfe8372f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/74e93ef5-84e8-4bdc-bea0-f585fce45e3a")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -21428,24 +20752,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C37593"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "34a0e23b-a733-42d0-9475-16134dfb2a7f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
 		(path "/24ecbacd-aa67-4e44-ab61-475b42ca99cb")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.625 -1.625)
@@ -21741,7 +21051,7 @@
 		(descr "Surface Mount Fuse with Clip, 4.2 x 11.1 mm, Time-Lag T, 250 VAC, 125 VDC (https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UMZ_250.pdf)")
 		(tags "fuse smd mount holder")
 		(property "Reference" "F1"
-			(at -6.6 -1 0)
+			(at 4.9 4 0)
 			(layer "B.SilkS")
 			(uuid "cde1a37f-9b88-4970-9a5c-db4c04d59e94")
 			(effects
@@ -21793,24 +21103,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3163460"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3074cc28-d0c9-4ef6-b6e5-5b4d8237015d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "*Fuse*")
 		(path "/eb99e487-308e-47d3-a7a0-453933a4ad4a")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.55 1.61)
@@ -22086,7 +21382,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -4.25 0 180)
-			(size 2.5 3.2)
+			(size 2.7 3.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.125)
 			(net 78 "Net-(F1-Pad1)")
@@ -22118,11 +21414,11 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "cd30dcb7-510d-4f0c-ad87-9286c9c60718")
-		(at 115.775 125.945 -90)
+		(at 115.875 126.245 -90)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R28"
-			(at -0.2 1.73 90)
+			(at -0.7 1.73 90)
 			(layer "B.SilkS")
 			(uuid "6be2fcce-cabb-4f54-9a9c-158ed7f82eb5")
 			(effects
@@ -22172,24 +21468,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C870906"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "52e66e40-9982-4497-85b5-903136ea2fb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/27cd7db8-b0fb-4e75-8698-1d589e3886a4")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -22307,7 +21589,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-070RL"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -22320,7 +21602,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 0Ω ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -22333,24 +21615,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C137394"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "26de0879-faec-44e1-a5f7-17266815797b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/a3b33285-1419-4ecb-a8ec-44ac96086e7b")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -22440,7 +21708,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "da60b153-4b5c-4d7a-939c-3f4b527d5673")
-		(at 107 101.05)
+		(at 107 101.75)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R33"
@@ -22468,7 +21736,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-071KL"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -22481,7 +21749,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES 1kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -22494,24 +21762,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C131398"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a75599d1-dffb-4012-8580-9cfb4075c2c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/6cfcaeb1-fd9e-4189-843d-62560d4844ba")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -22655,24 +21909,10 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C840591"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "917733f7-729b-403a-a2c2-3aa6539b40d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/92804d4b-db6e-43c4-80ca-a18376dbdc4a")
 		(sheetname "/")
-		(sheetfile "sch-14_PeterThePowerMeter.kicad_sch")
+		(sheetfile "sch-14_PowerMeter-DIN-ESP8266.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.835242 0.91)
@@ -22778,26 +22018,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f5cdcb81-c71b-48e4-ac0c-52bd19d98846")
-	)
-	(gr_line
-		(start 111.5 126.3)
-		(end 110.792893 127.007107)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "d2448796-b927-4c8d-9112-0758af58ef0e")
-	)
-	(gr_line
-		(start 114.153553 123.646446)
-		(end 114.153553 121.146446)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f14e9253-9f62-4b50-ad42-7d6c211d5245")
 	)
 	(gr_line
 		(start 117 52)
@@ -23509,39 +22729,6 @@
 		(layer "User.1")
 		(uuid "a267e686-298b-44ef-a1ef-a8735b14aeed")
 	)
-	(gr_rect
-		(start 214 105)
-		(end 217 109)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.2")
-		(uuid "56d54951-a40c-493b-abe1-67e25d161a63")
-	)
-	(gr_rect
-		(start 219 105)
-		(end 221 109)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.2")
-		(uuid "b3027da2-8b84-493d-9aba-4d1a01a1bd9e")
-	)
-	(gr_rect
-		(start 223 105)
-		(end 226 109)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.2")
-		(uuid "73d1dccc-d5ee-40dc-b808-88b3b7eca4b6")
-	)
 	(gr_text "-"
 		(at 102.2 62.2 0)
 		(layer "F.SilkS")
@@ -23595,7 +22782,7 @@
 		)
 	)
 	(gr_text "TA SCT-013"
-		(at 163.8 130.3 90)
+		(at 173.2 129.3 90)
 		(layer "F.SilkS")
 		(uuid "9796b627-f70e-4117-aa01-684998e20463")
 		(effects
@@ -23606,8 +22793,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Sch.14 R.01\n06/2026"
-		(at 151.8 127.6 0)
+	(gr_text "Sch.14 R.00\n04/2026"
+		(at 152.5 127.2 0)
 		(layer "F.SilkS")
 		(uuid "9a0e94f9-ab61-44c0-af99-014a2115f1f6")
 		(effects
@@ -23618,8 +22805,20 @@
 			(justify left)
 		)
 	)
-	(gr_text "Sch.14 R.01  06/2026"
-		(at 226 90.1 90)
+	(gr_text "04/2026"
+		(at 213.3 84.7 0)
+		(layer "F.SilkS")
+		(uuid "f51eb094-4e85-49e3-86dc-d7755bbf75be")
+		(effects
+			(font
+				(size 1.5 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Sch.14 R.00"
+		(at 226 82.6 90)
 		(layer "F.SilkS")
 		(uuid "2e78ae86-c103-4aa5-afcb-1b0231d95501")
 		(effects
@@ -23630,8 +22829,8 @@
 			(justify left)
 		)
 	)
-	(gr_text "250VAC\n250mA T"
-		(at 108.5 125.5 0)
+	(gr_text "250V 250mA T"
+		(at 112.1 126.3 0)
 		(layer "B.SilkS")
 		(uuid "71461b5e-7e25-4f51-aaf2-c0e0455521d3")
 		(effects
@@ -23644,7 +22843,7 @@
 		)
 	)
 	(gr_text "230VAC"
-		(at 112.1 119.9 0)
+		(at 112.3 121.1 0)
 		(layer "B.SilkS")
 		(uuid "f8f847cb-5f19-40ff-a97f-ed6e2d3bb69a")
 		(effects
@@ -23656,7 +22855,7 @@
 		)
 	)
 	(gr_text "N"
-		(at 105.8 121.6 0)
+		(at 109.1 123.3 0)
 		(layer "B.SilkS")
 		(uuid "e94789ad-6a02-41b4-8036-fee7e0c8036b")
 		(effects
@@ -23668,7 +22867,7 @@
 		)
 	)
 	(gr_text "L"
-		(at 110.8 121.6 0)
+		(at 111 123.3 0)
 		(layer "B.SilkS")
 		(uuid "146afb2c-5f8c-4709-ae89-847fd78c2f1b")
 		(effects
@@ -23679,8 +22878,8 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "Sch.14 R.01\n06/2026"
-		(at 113.8 110.4 0)
+	(gr_text "Sch.14 R.00\n04/2026"
+		(at 114.3 110 0)
 		(layer "B.SilkS")
 		(uuid "502b6586-a8f2-4158-8ab8-b71fa6c2b934")
 		(effects
@@ -23692,7 +22891,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 107.8 57.5 0)
+		(at 107.8 56.6 0)
 		(layer "B.SilkS")
 		(uuid "4a049ef7-dcc2-4017-9dc6-9e72472a6610")
 		(effects
@@ -23704,7 +22903,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 112.8 57.5 0)
+		(at 112.8 56.6 0)
 		(layer "B.SilkS")
 		(uuid "aa212d78-8bee-455b-8843-6b2ddd3591fb")
 		(effects
@@ -23771,40 +22970,37 @@
 			)
 		)
 	)
-	(gr_text "SW1"
-		(at 214 104.5 0)
-		(layer "User.2")
-		(uuid "dfebc258-cc78-4e8c-b543-c4b5a71dfe78")
+	(gr_text "Base\n15x79"
+		(at 109.2 29 0)
+		(layer "User.1")
+		(uuid "710f345a-d750-4399-be05-b8aa2b26c043")
 		(effects
 			(font
-				(size 1 1)
+				(size 7 5)
 				(thickness 0.15)
 			)
-			(justify left bottom)
 		)
 	)
-	(gr_text "LD1"
-		(at 218.5 104.5 0)
-		(layer "User.2")
-		(uuid "8d893621-c262-4e97-b7a8-2bf9f4059a0f")
+	(gr_text "Right Side"
+		(at 161.8 30.4 0)
+		(layer "User.1")
+		(uuid "436c4929-8a05-4f5a-915f-0f0363ec8979")
 		(effects
 			(font
-				(size 1 1)
+				(size 7 5)
 				(thickness 0.15)
 			)
-			(justify left bottom)
 		)
 	)
-	(gr_text "SW2"
-		(at 223 104.5 0)
-		(layer "User.2")
-		(uuid "6cff0981-a5c3-4a0b-b805-827c65d38f8b")
+	(gr_text "TOP\n15x38mm"
+		(at 221.6 31.5 0)
+		(layer "User.1")
+		(uuid "50d8ceab-f528-4289-bd82-a48786168f7c")
 		(effects
 			(font
-				(size 1 1)
+				(size 7 5)
 				(thickness 0.15)
 			)
-			(justify left bottom)
 		)
 	)
 	(dimension
@@ -23826,14 +23022,14 @@
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
-			(text_position_mode 2)
-			(arrow_direction inward)
+			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "7,5 mm"
-			(at 208 122.15 0)
+			(at 216.25 122.15 0)
 			(layer "User.2")
 			(uuid "1756b566-8780-4540-9d15-5730584c9999")
 			(effects
@@ -23851,7 +23047,7 @@
 		(pts
 			(xy 139 120) (xy 150.5 131)
 		)
-		(height -7.5)
+		(height -15.5)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -23870,7 +23066,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "11,0 mm"
-			(at 130.35 125.5 90)
+			(at 122.35 125.5 90)
 			(layer "User.2")
 			(uuid "201a262c-5737-4f05-bdb6-5bcd76315800")
 			(effects
@@ -23888,7 +23084,7 @@
 		(pts
 			(xy 139 120) (xy 139 63)
 		)
-		(height -7.5)
+		(height -15.5)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -23907,7 +23103,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "57,0 mm"
-			(at 130.35 91.5 90)
+			(at 122.35 91.5 90)
 			(layer "User.2")
 			(uuid "2aa886a2-39ed-42b2-a07d-aad316cbd552")
 			(effects
@@ -23958,11 +23154,48 @@
 	(dimension
 		(type orthogonal)
 		(layer "User.2")
+		(uuid "42f6cb32-fd7a-4e86-956e-de6c467019cb")
+		(pts
+			(xy 172.5 112) (xy 196.5 112)
+		)
+		(height 30.6)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "24,0 mm"
+			(at 184.5 141.45 0)
+			(layer "User.2")
+			(uuid "42f6cb32-fd7a-4e86-956e-de6c467019cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
 		(uuid "4635320b-dca6-4ea9-a42f-45d6b9021897")
 		(pts
 			(xy 196.5 112) (xy 196.5 70)
 		)
-		(height 5.5)
+		(height 7.6)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -23981,7 +23214,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "42,0 mm"
-			(at 200.85 91 90)
+			(at 202.95 91 90)
 			(layer "User.2")
 			(uuid "4635320b-dca6-4ea9-a42f-45d6b9021897")
 			(effects
@@ -24036,7 +23269,7 @@
 		(pts
 			(xy 172.5 112) (xy 172.5 131)
 		)
-		(height 29.5)
+		(height 4.6)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -24055,7 +23288,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "19,0 mm"
-			(at 200.85 121.5 90)
+			(at 175.95 121.5 90)
 			(layer "User.2")
 			(uuid "599ee3bc-0cb1-4410-9046-a18c6d421b81")
 			(effects
@@ -24085,14 +23318,14 @@
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
-			(text_position_mode 2)
-			(arrow_direction inward)
+			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "3,0 mm"
-			(at 232.5 116.35 0)
+			(at 226 116.35 0)
 			(layer "User.2")
 			(uuid "731afb14-5388-4cb0-93f4-79f6aac26925")
 			(effects
@@ -24110,7 +23343,7 @@
 		(pts
 			(xy 139 63) (xy 150.5 52)
 		)
-		(height -7.5)
+		(height -15.5)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -24129,7 +23362,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "11,0 mm"
-			(at 130.35 57.5 90)
+			(at 122.35 57.5 90)
 			(layer "User.2")
 			(uuid "7b19cac0-efbf-4e1b-b310-c0389c626076")
 			(effects
@@ -24147,7 +23380,7 @@
 		(pts
 			(xy 212.5 72) (xy 227.5 72)
 		)
-		(height -4)
+		(height -10.1)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -24166,7 +23399,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "15,0 mm"
-			(at 220 66.85 0)
+			(at 220 60.75 0)
 			(layer "User.2")
 			(uuid "913d6365-1a57-48d6-9e82-3e76b7cb109c")
 			(effects
@@ -24184,7 +23417,7 @@
 		(pts
 			(xy 172.5 52) (xy 172.5 70)
 		)
-		(height 29.5)
+		(height 4.7)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -24203,7 +23436,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "18,0 mm"
-			(at 200.85 61 90)
+			(at 176.05 61 90)
 			(layer "User.2")
 			(uuid "a06f88a7-a0da-4ffc-818a-f3518c7ce702")
 			(effects
@@ -24217,11 +23450,11 @@
 	(dimension
 		(type orthogonal)
 		(layer "User.2")
-		(uuid "abe481f9-a501-48ea-bf06-ea70398e6b5e")
+		(uuid "a18e9765-69f8-4671-a8f4-72516e58940b")
 		(pts
-			(xy 212.5 72) (xy 212.5 110)
+			(xy 227.5 72) (xy 227.5 110)
 		)
-		(height -4.5)
+		(height 8.5)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -24240,9 +23473,46 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "38,0 mm"
-			(at 206.85 91 90)
+			(at 234.85 91 90)
 			(layer "User.2")
-			(uuid "abe481f9-a501-48ea-bf06-ea70398e6b5e")
+			(uuid "a18e9765-69f8-4671-a8f4-72516e58940b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "ade02c92-306c-4972-88c9-5f26f820da13")
+		(pts
+			(xy 212.5 72) (xy 212.5 70)
+		)
+		(height -2.6)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2,0 mm"
+			(at 208.75 71 90)
+			(layer "User.2")
+			(uuid "ade02c92-306c-4972-88c9-5f26f820da13")
 			(effects
 				(font
 					(size 1 1)
@@ -24280,6 +23550,80 @@
 			(at 109.5 44.35 0)
 			(layer "User.2")
 			(uuid "b626386f-2ad6-409d-b452-5d3e42bd80fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "ba17e282-e100-46c7-91de-f815ec5f1560")
+		(pts
+			(xy 212.5 110) (xy 212.5 112)
+		)
+		(height -2.7)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2,0 mm"
+			(at 208.65 111 90)
+			(layer "User.2")
+			(uuid "ba17e282-e100-46c7-91de-f815ec5f1560")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "ca205abc-acba-4b02-a24c-519547bf6ab4")
+		(pts
+			(xy 150.5 131) (xy 172.5 131)
+		)
+		(height 11.6)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "22,0 mm"
+			(at 161.5 141.45 0)
+			(layer "User.2")
+			(uuid "ca205abc-acba-4b02-a24c-519547bf6ab4")
 			(effects
 				(font
 					(size 1 1)
@@ -24344,16 +23688,53 @@
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
-			(text_position_mode 2)
-			(arrow_direction inward)
+			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "3,0 mm"
-			(at 231 102.5 90)
+			(at 230.95 108.5 90)
 			(layer "User.2")
 			(uuid "e5bc0112-0965-47f9-9715-f2088acbf11a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "f9c65e00-8d6b-42ff-ad7c-7ecbc99462ed")
+		(pts
+			(xy 150.5 131) (xy 139 120)
+		)
+		(height 11.5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "11,5 mm"
+			(at 144.75 141.35 0)
+			(layer "User.2")
+			(uuid "f9c65e00-8d6b-42ff-ad7c-7ecbc99462ed")
 			(effects
 				(font
 					(size 1 1)
@@ -24418,14 +23799,14 @@
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
-			(text_position_mode 2)
-			(arrow_direction inward)
+			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "3,0 mm"
-			(at 208 116.35 0)
+			(at 214 116.35 0)
 			(layer "User.2")
 			(uuid "ff1286e0-2f9d-44ed-a6d4-91c6c2bceab9")
 			(effects
@@ -27081,11 +26462,27 @@
 	)
 	(segment
 		(start 107 122.25)
-		(end 103.484 117.366)
+		(end 107 121.9)
 		(width 1)
 		(layer "B.Cu")
 		(net 14)
-		(uuid "79c98958-03b9-4200-bc87-eb7b72ca401a")
+		(uuid "4524c8fa-9f26-4a17-85ba-1577714ebc8b")
+	)
+	(segment
+		(start 107 121.9)
+		(end 103.484 118.384)
+		(width 1)
+		(layer "B.Cu")
+		(net 14)
+		(uuid "5ccdc139-77f0-4319-8a41-22676db0fa70")
+	)
+	(segment
+		(start 103.484 118.384)
+		(end 103.484 118.066)
+		(width 1)
+		(layer "B.Cu")
+		(net 14)
+		(uuid "9efe738f-d1a6-4cf6-9ee7-54f676c2523f")
 	)
 	(segment
 		(start 158.98 68.695)
@@ -28256,46 +27653,62 @@
 		(uuid "9b029135-fc00-4de6-9ad3-d4bfb8885030")
 	)
 	(segment
-		(start 106.722893 128.77)
-		(end 104.47 128.77)
+		(start 111.853554 125.646446)
+		(end 108.876447 128.623553)
 		(width 1)
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(net 37)
-		(uuid "16904a6b-2fe4-47c7-bc81-8e9444d168c3")
-	)
-	(segment
-		(start 111.853553 123.846447)
-		(end 107.076446 128.623554)
-		(width 1)
-		(layer "B.Cu")
-		(net 37)
-		(uuid "75d4cf64-d5bb-4eec-b266-6e954abe9d94")
+		(uuid "2c99173a-15d2-4385-8b33-2954070fea7e")
 	)
 	(segment
 		(start 112 122.25)
-		(end 112 123.492893)
+		(end 112 125.292893)
 		(width 1)
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(net 37)
-		(uuid "b7213c2a-3399-482a-8477-363fc5933236")
+		(uuid "3864e2ba-e691-46ea-bfb2-7bba01351ddb")
+	)
+	(segment
+		(start 108.522893 128.77)
+		(end 107 128.77)
+		(width 1)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "4ef46f89-4a3d-42e6-a029-bf9811a617ab")
+	)
+	(via
+		(at 107 128.77)
+		(size 1.8)
+		(drill 1)
+		(layers "F.Cu" "B.Cu")
+		(net 37)
+		(uuid "c51f7708-a604-4a17-8a40-9c4f297ab73d")
 	)
 	(arc
-		(start 106.722893 128.77)
-		(mid 106.914234 128.73194)
-		(end 107.076446 128.623554)
+		(start 112 125.292893)
+		(mid 111.96194 125.484234)
+		(end 111.853554 125.646446)
 		(width 1)
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(net 37)
-		(uuid "59af3c0b-4e2e-447f-b25f-8bea451ea2a4")
+		(uuid "2b7ff6da-4e8b-4ff7-9279-202d0ae7cbed")
 	)
 	(arc
-		(start 111.853553 123.846447)
-		(mid 111.96194 123.684235)
-		(end 112 123.492893)
+		(start 108.876447 128.623553)
+		(mid 108.714235 128.73194)
+		(end 108.522893 128.77)
 		(width 1)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "de168cdb-4ddd-4fbf-8e44-2f22f981c438")
+	)
+	(segment
+		(start 104.47 128.77)
+		(end 107 128.77)
+		(width 1.5)
 		(layer "B.Cu")
 		(net 37)
-		(uuid "9dc391fc-fe17-4578-9499-778c2a4f6799")
+		(uuid "da0e2710-f05a-47bc-9ceb-af1161235f10")
 	)
 	(segment
 		(start 108.515 66.06)
@@ -30741,6 +30154,14 @@
 		(uuid "1d9a7f6f-0e91-4504-8169-923f3da4ad79")
 	)
 	(segment
+		(start 108.566 101.766)
+		(end 108.55 101.75)
+		(width 1)
+		(layer "B.Cu")
+		(net 73)
+		(uuid "2e25148a-fffb-4804-8408-97c2eb7d07cd")
+	)
+	(segment
 		(start 145.314607 105.4075)
 		(end 149.59 105.4075)
 		(width 0.3)
@@ -30757,12 +30178,12 @@
 		(uuid "4770741c-9eb8-4be9-9669-6c4eebf16a99")
 	)
 	(segment
-		(start 108.566 101.066)
-		(end 108.55 101.05)
-		(width 1)
+		(start 113.075 103.51)
+		(end 110.684 101.766)
+		(width 0.5)
 		(layer "B.Cu")
 		(net 73)
-		(uuid "5ca724ed-41d6-4c22-b57f-ff36a411296a")
+		(uuid "5c2ec06c-0368-4b72-8275-184731891521")
 	)
 	(segment
 		(start 156.966447 105.566447)
@@ -30789,22 +30210,6 @@
 		(uuid "90b24f28-8c22-4f21-9955-1b0d190e98f1")
 	)
 	(segment
-		(start 110.684 101.119)
-		(end 110.684 101.066)
-		(width 1)
-		(layer "B.Cu")
-		(net 73)
-		(uuid "929c656e-b9fc-498d-a051-0e6089fec755")
-	)
-	(segment
-		(start 110.684 101.066)
-		(end 108.566 101.066)
-		(width 1)
-		(layer "B.Cu")
-		(net 73)
-		(uuid "9aba430a-98b8-4fcb-ba81-3fe3ed8e9bb6")
-	)
-	(segment
 		(start 160.2 113.79)
 		(end 160.19 113.8)
 		(width 0.2)
@@ -30827,6 +30232,14 @@
 		(layer "B.Cu")
 		(net 73)
 		(uuid "c7d9fde3-adaf-4c1e-b12c-e5f25f59ffef")
+	)
+	(segment
+		(start 110.684 101.766)
+		(end 108.566 101.766)
+		(width 1)
+		(layer "B.Cu")
+		(net 73)
+		(uuid "cb658325-88d8-4c17-9520-93985b50f492")
 	)
 	(segment
 		(start 160.19 116.345)
@@ -30860,14 +30273,6 @@
 		(net 73)
 		(uuid "e13c7f31-466b-4e95-91e5-d25203f4d904")
 	)
-	(segment
-		(start 113.075 103.51)
-		(end 110.684 101.119)
-		(width 1)
-		(layer "B.Cu")
-		(net 73)
-		(uuid "ec75d7c8-c4c8-476c-a713-e5312bf318bd")
-	)
 	(arc
 		(start 156.612893 105.42)
 		(mid 156.804235 105.45806)
@@ -30896,12 +30301,20 @@
 		(uuid "ce259065-f006-4708-ae58-ff2d20a41868")
 	)
 	(segment
-		(start 115.775 122.795)
-		(end 115.775 124.395)
+		(start 115.875 124.695)
+		(end 115.875 122.795)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 74)
-		(uuid "6d6af141-ca2a-4dcd-94ce-446dd561417a")
+		(uuid "dc3525cc-673c-4440-8f8b-1ae4b02b2738")
+	)
+	(segment
+		(start 115.385 119.205)
+		(end 115.385 116.575)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 75)
+		(uuid "1697fe48-6a60-459c-ad01-5c79dd3d0619")
 	)
 	(segment
 		(start 115.875 119.695)
@@ -30909,31 +30322,31 @@
 		(width 0.5)
 		(layer "B.Cu")
 		(net 75)
-		(uuid "0a7fee86-c99a-4a08-a721-3656ae870827")
+		(uuid "8db15d8f-3ab6-468c-826e-f9dbd3d1e795")
 	)
 	(segment
-		(start 115.385 119.205)
-		(end 115.385 116.075)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 75)
-		(uuid "1200dbe9-c89d-4582-b780-4239b372b26f")
-	)
-	(segment
-		(start 110.994 117.366)
-		(end 112.285 116.075)
+		(start 112.285 116.729137)
+		(end 112.285 116.575)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 76)
-		(uuid "23d552d0-1751-4091-894e-0fc3464915ce")
+		(uuid "160dbeda-5c67-4d2a-90c6-da812b00c7c0")
 	)
 	(segment
-		(start 110.684 117.366)
-		(end 110.994 117.366)
+		(start 110.684 118.066)
+		(end 110.948137 118.066)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 76)
-		(uuid "b9b14c7a-d817-42dd-9755-414202037bf5")
+		(uuid "4211aefa-1fe7-4edb-a34d-32ffeece4027")
+	)
+	(segment
+		(start 110.948137 118.066)
+		(end 112.285 116.729137)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 76)
+		(uuid "a16a0a0f-d192-4220-b0f5-89309f9bbba0")
 	)
 	(segment
 		(start 156.992893 107)
@@ -30952,20 +30365,36 @@
 		(uuid "35773caa-c1da-4ae8-be72-eff13a0d9ad3")
 	)
 	(segment
-		(start 105.45 101.05)
-		(end 110.303554 105.903554)
-		(width 1)
+		(start 105.45 101.842893)
+		(end 105.45 101.75)
+		(width 0.5)
 		(layer "B.Cu")
 		(net 77)
-		(uuid "748dc085-c7e7-48c3-aa32-9f27e8e0ae08")
+		(uuid "43bd7b19-3a54-4c1c-b9d9-1c97e58fdeea")
 	)
 	(segment
-		(start 105.434 101.066)
-		(end 105.45 101.05)
+		(start 109.303553 105.903553)
+		(end 105.596446 102.196446)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 77)
+		(uuid "50e36283-8228-4603-b35e-6337a4f5e173")
+	)
+	(segment
+		(start 113.075 106.05)
+		(end 109.657107 106.05)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 77)
+		(uuid "78c933bb-6d61-4e56-9739-0868b8998f34")
+	)
+	(segment
+		(start 103.484 101.766)
+		(end 105.434 101.766)
 		(width 1)
 		(layer "B.Cu")
 		(net 77)
-		(uuid "7f74f1ca-fc64-4658-9a03-61597e0bdbc5")
+		(uuid "844192a4-73a2-4fbb-8512-6b74500dd448")
 	)
 	(segment
 		(start 158.953553 108.753553)
@@ -30984,6 +30413,14 @@
 		(uuid "95812e9f-2482-44f0-a49d-17773e58e9ff")
 	)
 	(segment
+		(start 105.434 101.766)
+		(end 105.45 101.75)
+		(width 1)
+		(layer "B.Cu")
+		(net 77)
+		(uuid "ad798c97-cc56-407d-a633-141fde87d016")
+	)
+	(segment
 		(start 159.1 114.492893)
 		(end 159.1 113.8)
 		(width 0.2)
@@ -30998,22 +30435,6 @@
 		(layer "B.Cu")
 		(net 77)
 		(uuid "c777e4ad-b10a-45f2-bc16-8062a4c3e9a3")
-	)
-	(segment
-		(start 103.484 101.066)
-		(end 105.434 101.066)
-		(width 1)
-		(layer "B.Cu")
-		(net 77)
-		(uuid "e1cb9518-d1d9-4d66-baa4-65704983a87b")
-	)
-	(segment
-		(start 110.657107 106.05)
-		(end 113.075 106.05)
-		(width 1)
-		(layer "B.Cu")
-		(net 77)
-		(uuid "e2e187b3-bee9-4b4d-b471-c632e6e2ce3b")
 	)
 	(segment
 		(start 144.4 106.05)
@@ -31038,6 +30459,15 @@
 		(layer "B.Cu")
 		(net 77)
 		(uuid "f328f922-907e-4ee4-9371-8e260245cbfe")
+	)
+	(arc
+		(start 109.303553 105.903553)
+		(mid 109.465765 106.01194)
+		(end 109.657107 106.05)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 77)
+		(uuid "09d3d505-f0f3-4e4a-8d3c-fc4adf58fd51")
 	)
 	(arc
 		(start 159.69 115.497107)
@@ -31085,6 +30515,15 @@
 		(uuid "5ee8a07f-b121-4d0f-98a5-6331eecd4e11")
 	)
 	(arc
+		(start 105.45 101.842893)
+		(mid 105.48806 102.034234)
+		(end 105.596446 102.196446)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 77)
+		(uuid "748f8992-cb2d-40e2-8b74-59725d77f541")
+	)
+	(arc
 		(start 158.953553 108.753553)
 		(mid 159.06194 108.915765)
 		(end 159.1 109.107107)
@@ -31093,38 +30532,21 @@
 		(net 77)
 		(uuid "bcd9fac0-a9ec-4eea-a316-388d4543fc3a")
 	)
-	(arc
-		(start 110.657107 106.05)
-		(mid 110.465766 106.01194)
-		(end 110.303554 105.903554)
-		(width 1)
-		(layer "B.Cu")
-		(net 77)
-		(uuid "c92e87d3-b6e3-4175-af0a-ac523fa45e32")
-	)
-	(segment
-		(start 112.97 128.025)
-		(end 113.5 127.495)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 78)
-		(uuid "22da39ad-4060-4884-9fcd-7e8da80484a1")
-	)
 	(segment
 		(start 112.97 128.77)
-		(end 112.97 128.025)
+		(end 113.945 127.795)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 78)
-		(uuid "486f15fd-c6cf-4de5-b964-87c83f97380e")
+		(uuid "5d60d83a-6eb4-4fba-a5ee-213cc3acf36c")
 	)
 	(segment
-		(start 113.5 127.495)
-		(end 115.775 127.495)
+		(start 113.945 127.795)
+		(end 115.875 127.795)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 78)
-		(uuid "d4df5ca5-6ffc-4e9c-a096-980d3619822f")
+		(uuid "cac65d6c-8862-4799-a6d5-a9dceb649982")
 	)
 	(zone
 		(net 2)
@@ -31146,7 +30568,7 @@
 		)
 		(polygon
 			(pts
-				(xy 102.9 89.55) (xy 102.9 98.9) (xy 115.9 98.9) (xy 115.9 89.55)
+				(xy 102.9 89.55) (xy 102.9 99.4) (xy 115.9 99.4) (xy 115.9 89.55)
 			)
 		)
 		(filled_polygon
@@ -31155,14 +30577,14 @@
 				(xy 115.416178 89.55213) (xy 115.450077 89.556592) (xy 115.49691 89.562758) (xy 115.559695 89.579581)
 				(xy 115.619713 89.604442) (xy 115.676004 89.63694) (xy 115.727549 89.676493) (xy 115.773506 89.72245)
 				(xy 115.813057 89.773993) (xy 115.845558 89.830287) (xy 115.870417 89.890302) (xy 115.887241 89.953087)
-				(xy 115.89787 90.033818) (xy 115.9 90.066321) (xy 115.9 98.383678) (xy 115.89787 98.416178) (xy 115.89787 98.416181)
-				(xy 115.887241 98.496912) (xy 115.870417 98.559697) (xy 115.845558 98.619712) (xy 115.813057 98.676006)
-				(xy 115.773509 98.727546) (xy 115.727546 98.773509) (xy 115.676006 98.813057) (xy 115.619712 98.845558)
-				(xy 115.559697 98.870417) (xy 115.496912 98.887241) (xy 115.447007 98.893811) (xy 115.416177 98.89787)
-				(xy 115.383678 98.9) (xy 103.416322 98.9) (xy 103.383821 98.89787) (xy 103.365531 98.895462) (xy 103.303088 98.887241)
-				(xy 103.240302 98.870417) (xy 103.180287 98.845558) (xy 103.123993 98.813057) (xy 103.07245 98.773506)
-				(xy 103.026493 98.727549) (xy 102.98694 98.676004) (xy 102.954441 98.619712) (xy 102.929582 98.559697)
-				(xy 102.912758 98.496909) (xy 102.90213 98.416178) (xy 102.9 98.383678) (xy 102.9 94.400001) (xy 107 94.400001)
+				(xy 115.89787 90.033818) (xy 115.9 90.066321) (xy 115.9 98.883678) (xy 115.89787 98.916178) (xy 115.89787 98.916181)
+				(xy 115.887241 98.996912) (xy 115.870417 99.059697) (xy 115.845558 99.119712) (xy 115.813057 99.176006)
+				(xy 115.773509 99.227546) (xy 115.727546 99.273509) (xy 115.676006 99.313057) (xy 115.619712 99.345558)
+				(xy 115.559697 99.370417) (xy 115.496912 99.387241) (xy 115.447007 99.393811) (xy 115.416177 99.39787)
+				(xy 115.383678 99.4) (xy 103.416322 99.4) (xy 103.383821 99.39787) (xy 103.365531 99.395462) (xy 103.303088 99.387241)
+				(xy 103.240302 99.370417) (xy 103.180287 99.345558) (xy 103.123993 99.313057) (xy 103.07245 99.273506)
+				(xy 103.026493 99.227549) (xy 102.98694 99.176004) (xy 102.954441 99.119712) (xy 102.929582 99.059697)
+				(xy 102.912758 98.996909) (xy 102.90213 98.916178) (xy 102.9 98.883678) (xy 102.9 94.400001) (xy 107 94.400001)
 				(xy 107 94.694938) (xy 107.015122 94.829142) (xy 107.07466 94.999294) (xy 107.074665 94.999303)
 				(xy 107.170574 95.151944) (xy 107.298055 95.279425) (xy 107.450696 95.375334) (xy 107.450705 95.375339)
 				(xy 107.620857 95.434877) (xy 107.755061 95.449999) (xy 107.755074 95.45) (xy 108.949999 95.45)
@@ -31340,31 +30762,35 @@
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
 			(smoothing fillet)
-			(radius 0.5)
+			(radius 1)
 		)
 		(polygon
 			(pts
-				(xy 102.892734 89.548914) (xy 115.892734 89.548914) (xy 115.9 98.9) (xy 102.9 98.9)
+				(xy 103 89.5) (xy 116 89.5) (xy 116 99.5) (xy 103 99.5)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 115.409294 89.551042) (xy 115.416646 89.552009) (xy 115.489983 89.561659) (xy 115.552741 89.578466)
-				(xy 115.612738 89.603304) (xy 115.669009 89.635773) (xy 115.720537 89.675285) (xy 115.766497 89.72121)
-				(xy 115.806048 89.772706) (xy 115.838561 89.828953) (xy 115.863445 89.888929) (xy 115.8803 89.95167)
-				(xy 115.890981 90.03235) (xy 115.893134 90.064833) (xy 115.899598 98.383283) (xy 115.897491 98.415802)
-				(xy 115.886915 98.496578) (xy 115.870122 98.559409) (xy 115.845285 98.619468) (xy 115.8128 98.675801)
-				(xy 115.773256 98.727385) (xy 115.727287 98.773391) (xy 115.67574 98.812971) (xy 115.619428 98.845502)
-				(xy 115.559382 98.870388) (xy 115.496566 98.887229) (xy 115.459 98.892177) (xy 115.415795 98.897868)
-				(xy 115.38328 98.9) (xy 103.415924 98.9) (xy 103.383441 98.897872) (xy 103.351975 98.893731) (xy 103.302749 98.887254)
-				(xy 103.23999 98.870446) (xy 103.179996 98.845609) (xy 103.123724 98.81314) (xy 103.072196 98.773628)
-				(xy 103.026236 98.727703) (xy 102.986685 98.676207) (xy 102.954172 98.61996) (xy 102.929288 98.559984)
-				(xy 102.912434 98.497249) (xy 102.90175 98.416546) (xy 102.899599 98.38408) (xy 102.893135 90.065619)
-				(xy 102.895241 90.033125) (xy 102.905819 89.95233) (xy 102.922611 89.889504) (xy 102.947448 89.829445)
-				(xy 102.979933 89.773112) (xy 103.019477 89.721528) (xy 103.065439 89.675528) (xy 103.117001 89.635937)
-				(xy 103.173305 89.603411) (xy 103.177072 89.601849) (xy 103.233354 89.578524) (xy 103.296165 89.561685)
-				(xy 103.353468 89.554137) (xy 103.376939 89.551046) (xy 103.409454 89.548914) (xy 115.37681 89.548914)
+				(xy 115.012172 89.501199) (xy 115.05582 89.505497) (xy 115.170689 89.516811) (xy 115.218555 89.526333)
+				(xy 115.359217 89.569002) (xy 115.404307 89.587678) (xy 115.531718 89.65578) (xy 115.533939 89.656968)
+				(xy 115.574524 89.684086) (xy 115.688148 89.777334) (xy 115.722665 89.811851) (xy 115.815913 89.925475)
+				(xy 115.843031 89.96606) (xy 115.912319 90.095688) (xy 115.930999 90.140786) (xy 115.973665 90.281439)
+				(xy 115.983188 90.329312) (xy 115.998801 90.487826) (xy 116 90.512233) (xy 116 98.487766) (xy 115.998801 98.512172)
+				(xy 115.998801 98.512173) (xy 115.983188 98.670687) (xy 115.973665 98.71856) (xy 115.930999 98.859213)
+				(xy 115.912319 98.904311) (xy 115.843031 99.033939) (xy 115.815913 99.074524) (xy 115.722665 99.188148)
+				(xy 115.688148 99.222665) (xy 115.574524 99.315913) (xy 115.533939 99.343031) (xy 115.404311 99.412319)
+				(xy 115.359213 99.430999) (xy 115.21856 99.473665) (xy 115.170687 99.483188) (xy 115.012173 99.498801)
+				(xy 114.987766 99.5) (xy 104.012234 99.5) (xy 103.987827 99.498801) (xy 103.829312 99.483188) (xy 103.781439 99.473665)
+				(xy 103.640786 99.430999) (xy 103.595688 99.412319) (xy 103.46606 99.343031) (xy 103.425475 99.315913)
+				(xy 103.311851 99.222665) (xy 103.277334 99.188148) (xy 103.184086 99.074524) (xy 103.156968 99.033939)
+				(xy 103.08768 98.904311) (xy 103.069002 98.859217) (xy 103.026333 98.718555) (xy 103.016811 98.670686)
+				(xy 103.001199 98.512172) (xy 103 98.487766) (xy 103 90.512233) (xy 103.001199 90.487827) (xy 103.016811 90.329313)
+				(xy 103.016812 90.329306) (xy 103.026332 90.281446) (xy 103.069003 90.140778) (xy 103.087676 90.095695)
+				(xy 103.15697 89.966056) (xy 103.184086 89.925475) (xy 103.192447 89.915286) (xy 103.277337 89.811847)
+				(xy 103.311847 89.777337) (xy 103.425475 89.684086) (xy 103.466056 89.65697) (xy 103.595695 89.587676)
+				(xy 103.640778 89.569003) (xy 103.781446 89.526332) (xy 103.829308 89.516811) (xy 103.95113 89.504813)
+				(xy 103.987828 89.501199) (xy 104.012234 89.5) (xy 114.987766 89.5)
 			)
 		)
 	)
@@ -31387,8 +30813,8 @@
 		)
 		(polygon
 			(pts
-				(xy 150 118.5) (xy 150 110) (xy 139.5 110) (xy 139.5 63.5) (xy 151.6 63.5) (xy 151.6 52.5) (xy 172 52.5)
-				(xy 172 70.4) (xy 195.9 70.4) (xy 195.9 112) (xy 172.5 112) (xy 172.5 131) (xy 151.02 131) (xy 151.02 119.5)
+				(xy 146 116.5) (xy 146 110) (xy 139.5 110) (xy 139.5 63.5) (xy 151.6 63.5) (xy 151.6 52.5) (xy 172 52.5)
+				(xy 172 70.4) (xy 195.9 70.4) (xy 195.9 112) (xy 172.5 112) (xy 172.5 131) (xy 151.02 131) (xy 151.02 116.5)
 			)
 		)
 		(filled_polygon
@@ -31803,7 +31229,7 @@
 				(xy 152.426441 117.104218) (xy 152.4395 117.165219) (xy 152.4395 117.582442) (xy 152.419538 117.656942)
 				(xy 152.365 117.71148) (xy 152.319696 117.726135) (xy 152.320159 117.728298) (xy 152.312202 117.730001)
 				(xy 152.145666 117.785186) (xy 151.996343 117.877288) (xy 151.872288 118.001343) (xy 151.780186 118.150666)
-				(xy 151.725001 118.317201) (xy 151.7145 118.419995) (xy 151.7145 119.320003) (xy 151.718301 119.357208)
+				(xy 151.725001 118.317201) (xy 151.7145 118.419995) (xy 151.7145 119.320003) (xy 151.716696 119.341496)
 				(xy 151.725001 119.422797) (xy 151.780186 119.589334) (xy 151.872288 119.738656) (xy 151.996344 119.862712)
 				(xy 152.145666 119.954814) (xy 152.312203 120.009999) (xy 152.414991 120.0205) (xy 153.765008 120.020499)
 				(xy 153.867797 120.009999) (xy 154.034334 119.954814) (xy 154.183656 119.862712) (xy 154.307712 119.738656)
@@ -31821,7 +31247,7 @@
 				(xy 155.9845 117.289708) (xy 155.9845 117.554888) (xy 155.964538 117.629388) (xy 155.91 117.683926)
 				(xy 155.850646 117.703116) (xy 155.832209 117.704999) (xy 155.832202 117.705001) (xy 155.665666 117.760186)
 				(xy 155.516343 117.852288) (xy 155.392288 117.976343) (xy 155.300186 118.125666) (xy 155.245001 118.292201)
-				(xy 155.2345 118.394995) (xy 155.2345 119.320003) (xy 155.238301 119.357208) (xy 155.245001 119.422797)
+				(xy 155.2345 118.394995) (xy 155.2345 119.320003) (xy 155.236696 119.341496) (xy 155.245001 119.422797)
 				(xy 155.300186 119.589334) (xy 155.392288 119.738656) (xy 155.516344 119.862712) (xy 155.665666 119.954814)
 				(xy 155.832203 120.009999) (xy 155.934991 120.0205) (xy 157.335008 120.020499) (xy 157.437797 120.009999)
 				(xy 157.604334 119.954814) (xy 157.753656 119.862712) (xy 157.877712 119.738656) (xy 157.969814 119.589334)
@@ -31947,7 +31373,7 @@
 				(xy 167.909702 119.43805) (xy 168.041918 119.492816) (xy 168.206233 119.5255) (xy 168.373767 119.5255)
 				(xy 168.538082 119.492816) (xy 168.692863 119.428703) (xy 168.832162 119.335626) (xy 168.950626 119.217162)
 				(xy 169.043703 119.077863) (xy 169.107816 118.923082) (xy 169.1405 118.758767) (xy 169.1405 118.591233)
-				(xy 169.107816 118.426918) (xy 169.047 118.280097) (xy 169.043705 118.272141) (xy 169.043698 118.272129)
+				(xy 169.107816 118.426918) (xy 169.047973 118.282445) (xy 169.043705 118.272141) (xy 169.043698 118.272129)
 				(xy 168.950628 118.132841) (xy 168.950626 118.132838) (xy 168.832162 118.014374) (xy 168.832158 118.014371)
 				(xy 168.69287 117.921301) (xy 168.692858 117.921294) (xy 168.570136 117.870461) (xy 168.538082 117.857184)
 				(xy 168.53808 117.857183) (xy 168.538079 117.857183) (xy 168.373767 117.8245) (xy 168.206233 117.8245)
@@ -31995,103 +31421,106 @@
 				(xy 151.02 125.51306) (xy 151.02 124.626939) (xy 151.96 124.626939) (xy 151.96 124.82) (xy 152.885 124.82)
 				(xy 152.885 124.12) (xy 152.466939 124.12) (xy 152.378556 124.130613) (xy 152.237903 124.186079)
 				(xy 152.117437 124.277433) (xy 152.117433 124.277437) (xy 152.026079 124.397903) (xy 151.970613 124.538556)
-				(xy 151.96 124.626939) (xy 151.02 124.626939) (xy 151.02 119.710011) (xy 151.002533 119.579009)
-				(xy 150.987394 119.542967) (xy 150.951353 119.45716) (xy 150.870036 119.352976) (xy 150.836403 119.320003)
-				(xy 150.591476 119.079878) (xy 150.15702 118.653942) (xy 150.143881 118.63923) (xy 150.080868 118.558498)
-				(xy 150.060953 118.524522) (xy 150.02516 118.439305) (xy 150.014841 118.401297) (xy 150.001307 118.299789)
-				(xy 150 118.280097) (xy 150 112.519995) (xy 151.6395 112.519995) (xy 151.6395 113.170003) (xy 151.639501 113.170008)
-				(xy 151.650001 113.272797) (xy 151.705186 113.439334) (xy 151.797288 113.588656) (xy 151.921344 113.712712)
-				(xy 152.070666 113.804814) (xy 152.237203 113.859999) (xy 152.339991 113.8705) (xy 153.840008 113.870499)
-				(xy 153.942797 113.859999) (xy 154.109334 113.804814) (xy 154.258656 113.712712) (xy 154.382712 113.588656)
-				(xy 154.474814 113.439334) (xy 154.516657 113.31306) (xy 155.39 113.31306) (xy 155.400613 113.401443)
-				(xy 155.456079 113.542096) (xy 155.547433 113.662562) (xy 155.547437 113.662566) (xy 155.667904 113.75392)
-				(xy 155.667903 113.75392) (xy 155.808556 113.809386) (xy 155.896939 113.819999) (xy 155.896941 113.82)
-				(xy 156.34 113.82) (xy 156.34 113.1075) (xy 155.39 113.1075) (xy 155.39 113.31306) (xy 154.516657 113.31306)
-				(xy 154.529999 113.272797) (xy 154.5405 113.170009) (xy 154.540499 112.842413) (xy 154.540499 112.519996)
-				(xy 154.540499 112.519992) (xy 154.529999 112.417203) (xy 154.524941 112.401939) (xy 155.39 112.401939)
-				(xy 155.39 112.6075) (xy 156.34 112.6075) (xy 156.34 111.895) (xy 155.896939 111.895) (xy 155.808556 111.905613)
-				(xy 155.667903 111.961079) (xy 155.547437 112.052433) (xy 155.547433 112.052437) (xy 155.456079 112.172903)
-				(xy 155.400613 112.313556) (xy 155.39 112.401939) (xy 154.524941 112.401939) (xy 154.474814 112.250666)
-				(xy 154.382712 112.101344) (xy 154.258656 111.977288) (xy 154.109334 111.885186) (xy 154.109333 111.885185)
-				(xy 154.109332 111.885185) (xy 154.109328 111.885183) (xy 154.073035 111.873157) (xy 154.008596 111.830774)
-				(xy 153.973982 111.761849) (xy 153.978468 111.684852) (xy 153.982236 111.674728) (xy 154.003973 111.622251)
-				(xy 154.0405 111.438616) (xy 154.0405 111.251384) (xy 154.003973 111.067749) (xy 153.932322 110.894769)
-				(xy 153.828302 110.739092) (xy 153.695908 110.606698) (xy 153.644015 110.572024) (xy 153.540235 110.50268)
-				(xy 153.540226 110.502675) (xy 153.403073 110.445865) (xy 153.367251 110.431027) (xy 153.367249 110.431026)
-				(xy 153.367248 110.431026) (xy 153.183616 110.3945) (xy 152.996384 110.3945) (xy 152.812751 110.431026)
-				(xy 152.639773 110.502675) (xy 152.639764 110.50268) (xy 152.484093 110.606697) (xy 152.484088 110.606701)
-				(xy 152.351701 110.739088) (xy 152.351697 110.739093) (xy 152.24768 110.894764) (xy 152.247675 110.894773)
-				(xy 152.176026 111.067751) (xy 152.1395 111.251383) (xy 152.1395 111.438616) (xy 152.171501 111.5995)
-				(xy 152.176027 111.622251) (xy 152.184835 111.643516) (xy 152.197753 111.674701) (xy 152.20782 111.751169)
-				(xy 152.178305 111.822426) (xy 152.117115 111.869379) (xy 152.106965 111.873157) (xy 152.070669 111.885184)
-				(xy 152.070667 111.885185) (xy 151.921343 111.977288) (xy 151.797288 112.101343) (xy 151.705186 112.250666)
-				(xy 151.650001 112.417201) (xy 151.649006 112.426939) (xy 151.641492 112.5005) (xy 151.6395 112.519995)
-				(xy 150 112.519995) (xy 150 110.5) (xy 149.999999 110.499994) (xy 149.982964 110.370592) (xy 149.933015 110.250003)
-				(xy 149.853554 110.146448) (xy 149.853551 110.146445) (xy 149.749996 110.066984) (xy 149.749997 110.066984)
-				(xy 149.629407 110.017035) (xy 149.500005 110) (xy 149.5 110) (xy 140.009763 110) (xy 139.990316 109.998725)
-				(xy 139.957235 109.99437) (xy 139.890038 109.985523) (xy 139.852467 109.975456) (xy 139.768122 109.940519)
-				(xy 139.734437 109.921071) (xy 139.662005 109.865491) (xy 139.634508 109.837994) (xy 139.578927 109.76556)
-				(xy 139.55948 109.731877) (xy 139.542325 109.690461) (xy 139.524542 109.647529) (xy 139.514476 109.609959)
-				(xy 139.501775 109.51348) (xy 139.5005 109.494033) (xy 139.5005 108.98806) (xy 148.39 108.98806)
-				(xy 148.400613 109.076443) (xy 148.456079 109.217096) (xy 148.547433 109.337562) (xy 148.547437 109.337566)
-				(xy 148.667904 109.42892) (xy 148.667903 109.42892) (xy 148.808556 109.484386) (xy 148.896939 109.494999)
-				(xy 148.896941 109.495) (xy 149.34 109.495) (xy 149.84 109.495) (xy 150.283059 109.495) (xy 150.28306 109.494999)
-				(xy 150.371443 109.484386) (xy 150.512096 109.42892) (xy 150.632562 109.337566) (xy 150.632566 109.337562)
-				(xy 150.72392 109.217096) (xy 150.779386 109.076443) (xy 150.789999 108.98806) (xy 150.79 108.988058)
-				(xy 150.79 108.96306) (xy 151.915 108.96306) (xy 151.925613 109.051443) (xy 151.981079 109.192096)
-				(xy 152.072433 109.312562) (xy 152.072437 109.312566) (xy 152.192904 109.40392) (xy 152.192903 109.40392)
-				(xy 152.333556 109.459386) (xy 152.421939 109.469999) (xy 152.421941 109.47) (xy 152.84 109.47)
-				(xy 153.34 109.47) (xy 153.758059 109.47) (xy 153.75806 109.469999) (xy 153.846443 109.459386) (xy 153.987096 109.40392)
-				(xy 154.107562 109.312566) (xy 154.107566 109.312562) (xy 154.19892 109.192096) (xy 154.254386 109.051443)
-				(xy 154.264999 108.96306) (xy 154.265 108.963058) (xy 154.265 108.77) (xy 153.34 108.77) (xy 153.34 109.47)
-				(xy 152.84 109.47) (xy 152.84 108.77) (xy 151.915 108.77) (xy 151.915 108.96306) (xy 150.79 108.96306)
-				(xy 150.79 108.7825) (xy 149.84 108.7825) (xy 149.84 109.495) (xy 149.34 109.495) (xy 149.34 108.7825)
-				(xy 148.39 108.7825) (xy 148.39 108.98806) (xy 139.5005 108.98806) (xy 139.5005 96.851659) (xy 145.4345 96.851659)
-				(xy 145.4345 97.398339) (xy 145.440562 97.457678) (xy 145.444651 97.497708) (xy 145.495349 97.650707)
-				(xy 145.497998 97.658699) (xy 145.519829 97.694092) (xy 145.587032 97.803044) (xy 145.706956 97.922968)
-				(xy 145.713722 97.927141) (xy 145.76665 97.983241) (xy 145.7845 98.053957) (xy 145.7845 98.842148)
-				(xy 145.764538 98.916648) (xy 145.759389 98.924928) (xy 145.692681 99.024763) (xy 145.692675 99.024773)
-				(xy 145.621026 99.197751) (xy 145.5845 99.381383) (xy 145.5845 99.568616) (xy 145.621026 99.752248)
-				(xy 145.692675 99.925226) (xy 145.69268 99.925235) (xy 145.703603 99.941582) (xy 145.796698 100.080908)
-				(xy 145.929092 100.213302) (xy 146.032174 100.282179) (xy 146.084764 100.317319) (xy 146.084773 100.317324)
-				(xy 146.135436 100.338309) (xy 146.257749 100.388973) (xy 146.441384 100.4255) (xy 146.628616 100.4255)
-				(xy 146.812251 100.388973) (xy 146.985231 100.317322) (xy 147.140908 100.213302) (xy 147.273302 100.080908)
-				(xy 147.377322 99.925231) (xy 147.448973 99.752251) (xy 147.4855 99.568616) (xy 147.4855 99.381384)
-				(xy 147.448973 99.197749) (xy 147.377322 99.024769) (xy 147.367348 99.009842) (xy 147.310611 98.924928)
-				(xy 147.285819 98.851893) (xy 147.2855 98.842148) (xy 147.2855 98.053957) (xy 147.305462 97.979457)
-				(xy 147.356277 97.927141) (xy 147.363044 97.922968) (xy 147.482968 97.803044) (xy 147.572003 97.658697)
-				(xy 147.625349 97.497708) (xy 147.6355 97.398345) (xy 147.635499 96.851656) (xy 147.625349 96.752292)
-				(xy 147.572003 96.591303) (xy 147.482968 96.446956) (xy 147.363044 96.327032) (xy 147.3561 96.322749)
-				(xy 147.218699 96.237998) (xy 147.218698 96.237997) (xy 147.218697 96.237997) (xy 147.057708 96.184651)
-				(xy 146.958345 96.1745) (xy 146.95834 96.1745) (xy 146.111659 96.1745) (xy 146.012291 96.184651)
-				(xy 145.8513 96.237998) (xy 145.706955 96.327032) (xy 145.587032 96.446955) (xy 145.497998 96.5913)
-				(xy 145.444651 96.752291) (xy 145.4345 96.851659) (xy 139.5005 96.851659) (xy 139.5005 95.606383)
-				(xy 155.6395 95.606383) (xy 155.6395 95.793616) (xy 155.676026 95.977248) (xy 155.747675 96.150226)
-				(xy 155.74768 96.150235) (xy 155.791626 96.216004) (xy 155.851698 96.305908) (xy 155.984092 96.438302)
-				(xy 156.040851 96.476227) (xy 156.139764 96.542319) (xy 156.139773 96.542324) (xy 156.190436 96.563309)
-				(xy 156.312749 96.613973) (xy 156.496384 96.6505) (xy 156.683616 96.6505) (xy 156.867251 96.613973)
-				(xy 157.040231 96.542322) (xy 157.195908 96.438302) (xy 157.230069 96.404141) (xy 157.296864 96.365577)
-				(xy 157.335428 96.3605) (xy 158.878836 96.3605) (xy 158.953336 96.380462) (xy 158.984195 96.404141)
-				(xy 160.805859 98.225805) (xy 160.844423 98.2926) (xy 160.8495 98.331164) (xy 160.8495 98.393616)
-				(xy 160.886026 98.577248) (xy 160.957675 98.750226) (xy 160.95768 98.750235) (xy 160.989041 98.797169)
-				(xy 161.061698 98.905908) (xy 161.194092 99.038302) (xy 161.264407 99.085285) (xy 161.349764 99.142319)
-				(xy 161.349773 99.142324) (xy 161.356555 99.145133) (xy 161.522749 99.213973) (xy 161.706384 99.2505)
-				(xy 161.893616 99.2505) (xy 162.077251 99.213973) (xy 162.250231 99.142322) (xy 162.405908 99.038302)
-				(xy 162.538302 98.905908) (xy 162.642322 98.750231) (xy 162.713973 98.577251) (xy 162.7505 98.393616)
-				(xy 162.7505 98.206384) (xy 162.713973 98.022749) (xy 162.642322 97.849769) (xy 162.538302 97.694092)
-				(xy 162.405908 97.561698) (xy 162.343354 97.519901) (xy 162.250235 97.45768) (xy 162.250226 97.457675)
-				(xy 162.09684 97.394141) (xy 162.077251 97.386027) (xy 162.077249 97.386026) (xy 162.077248 97.386026)
-				(xy 161.893616 97.3495) (xy 161.831164 97.3495) (xy 161.756664 97.329538) (xy 161.725805 97.305859)
-				(xy 159.811818 95.391872) (xy 159.752398 95.332451) (xy 159.752387 95.332442) (xy 159.60589 95.226005)
-				(xy 159.605889 95.226004) (xy 159.444535 95.143789) (xy 159.272307 95.087829) (xy 159.272307 95.087828)
-				(xy 159.18287 95.073663) (xy 159.093438 95.059499) (xy 159.093433 95.059499) (xy 159.002891 95.0595)
-				(xy 157.355428 95.0595) (xy 157.280928 95.039538) (xy 157.250069 95.015859) (xy 157.195911 94.961701)
-				(xy 157.195908 94.961698) (xy 157.09473 94.894093) (xy 157.040235 94.85768) (xy 157.040226 94.857675)
-				(xy 156.903073 94.800865) (xy 156.867251 94.786027) (xy 156.867249 94.786026) (xy 156.867248 94.786026)
-				(xy 156.683616 94.7495) (xy 156.496384 94.7495) (xy 156.312751 94.786026) (xy 156.139773 94.857675)
-				(xy 156.139764 94.85768) (xy 155.984093 94.961697) (xy 155.984088 94.961701) (xy 155.851701 95.094088)
-				(xy 155.851697 95.094093) (xy 155.74768 95.249764) (xy 155.747675 95.249773) (xy 155.676026 95.422751)
-				(xy 155.6395 95.606383) (xy 139.5005 95.606383) (xy 139.5005 94.091102) (xy 145.635 94.091102) (xy 145.645131 94.175466)
+				(xy 151.96 124.626939) (xy 151.02 124.626939) (xy 151.02 117) (xy 151.019999 116.999994) (xy 151.002964 116.870592)
+				(xy 150.953015 116.750003) (xy 150.944073 116.73835) (xy 150.873553 116.646447) (xy 150.873551 116.646445)
+				(xy 150.769996 116.566984) (xy 150.769997 116.566984) (xy 150.649407 116.517035) (xy 150.520005 116.5)
+				(xy 150.52 116.5) (xy 146.509763 116.5) (xy 146.490316 116.498725) (xy 146.457235 116.49437) (xy 146.390038 116.485523)
+				(xy 146.352467 116.475456) (xy 146.268122 116.440519) (xy 146.234437 116.421071) (xy 146.162005 116.365491)
+				(xy 146.134508 116.337994) (xy 146.078927 116.26556) (xy 146.05948 116.231877) (xy 146.024542 116.147529)
+				(xy 146.014476 116.10996) (xy 146.001275 116.009684) (xy 146 115.990236) (xy 146 112.519995) (xy 151.6395 112.519995)
+				(xy 151.6395 113.170003) (xy 151.639501 113.170008) (xy 151.650001 113.272797) (xy 151.705186 113.439334)
+				(xy 151.797288 113.588656) (xy 151.921344 113.712712) (xy 152.070666 113.804814) (xy 152.237203 113.859999)
+				(xy 152.339991 113.8705) (xy 153.840008 113.870499) (xy 153.942797 113.859999) (xy 154.109334 113.804814)
+				(xy 154.258656 113.712712) (xy 154.382712 113.588656) (xy 154.474814 113.439334) (xy 154.516657 113.31306)
+				(xy 155.39 113.31306) (xy 155.400613 113.401443) (xy 155.456079 113.542096) (xy 155.547433 113.662562)
+				(xy 155.547437 113.662566) (xy 155.667904 113.75392) (xy 155.667903 113.75392) (xy 155.808556 113.809386)
+				(xy 155.896939 113.819999) (xy 155.896941 113.82) (xy 156.34 113.82) (xy 156.34 113.1075) (xy 155.39 113.1075)
+				(xy 155.39 113.31306) (xy 154.516657 113.31306) (xy 154.529999 113.272797) (xy 154.5405 113.170009)
+				(xy 154.540499 112.842413) (xy 154.540499 112.519996) (xy 154.540499 112.519992) (xy 154.529999 112.417203)
+				(xy 154.524941 112.401939) (xy 155.39 112.401939) (xy 155.39 112.6075) (xy 156.34 112.6075) (xy 156.34 111.895)
+				(xy 155.896939 111.895) (xy 155.808556 111.905613) (xy 155.667903 111.961079) (xy 155.547437 112.052433)
+				(xy 155.547433 112.052437) (xy 155.456079 112.172903) (xy 155.400613 112.313556) (xy 155.39 112.401939)
+				(xy 154.524941 112.401939) (xy 154.474814 112.250666) (xy 154.382712 112.101344) (xy 154.258656 111.977288)
+				(xy 154.109334 111.885186) (xy 154.109333 111.885185) (xy 154.109332 111.885185) (xy 154.109328 111.885183)
+				(xy 154.073035 111.873157) (xy 154.008596 111.830774) (xy 153.973982 111.761849) (xy 153.978468 111.684852)
+				(xy 153.982236 111.674728) (xy 154.003973 111.622251) (xy 154.0405 111.438616) (xy 154.0405 111.251384)
+				(xy 154.003973 111.067749) (xy 153.932322 110.894769) (xy 153.828302 110.739092) (xy 153.695908 110.606698)
+				(xy 153.644015 110.572024) (xy 153.540235 110.50268) (xy 153.540226 110.502675) (xy 153.403073 110.445865)
+				(xy 153.367251 110.431027) (xy 153.367249 110.431026) (xy 153.367248 110.431026) (xy 153.183616 110.3945)
+				(xy 152.996384 110.3945) (xy 152.812751 110.431026) (xy 152.639773 110.502675) (xy 152.639764 110.50268)
+				(xy 152.484093 110.606697) (xy 152.484088 110.606701) (xy 152.351701 110.739088) (xy 152.351697 110.739093)
+				(xy 152.24768 110.894764) (xy 152.247675 110.894773) (xy 152.176026 111.067751) (xy 152.1395 111.251383)
+				(xy 152.1395 111.438616) (xy 152.171501 111.5995) (xy 152.176027 111.622251) (xy 152.184835 111.643516)
+				(xy 152.197753 111.674701) (xy 152.20782 111.751169) (xy 152.178305 111.822426) (xy 152.117115 111.869379)
+				(xy 152.106965 111.873157) (xy 152.070669 111.885184) (xy 152.070667 111.885185) (xy 151.921343 111.977288)
+				(xy 151.797288 112.101343) (xy 151.705186 112.250666) (xy 151.650001 112.417201) (xy 151.649006 112.426939)
+				(xy 151.641492 112.5005) (xy 151.6395 112.519995) (xy 146 112.519995) (xy 146 110.5) (xy 145.999999 110.499994)
+				(xy 145.982964 110.370592) (xy 145.933015 110.250003) (xy 145.853554 110.146448) (xy 145.853551 110.146445)
+				(xy 145.749996 110.066984) (xy 145.749997 110.066984) (xy 145.629407 110.017035) (xy 145.500005 110)
+				(xy 145.5 110) (xy 140.009763 110) (xy 139.990316 109.998725) (xy 139.957235 109.99437) (xy 139.890038 109.985523)
+				(xy 139.852467 109.975456) (xy 139.768122 109.940519) (xy 139.734437 109.921071) (xy 139.662005 109.865491)
+				(xy 139.634508 109.837994) (xy 139.578927 109.76556) (xy 139.55948 109.731877) (xy 139.542325 109.690461)
+				(xy 139.524542 109.647529) (xy 139.514476 109.609959) (xy 139.501775 109.51348) (xy 139.5005 109.494033)
+				(xy 139.5005 108.98806) (xy 148.39 108.98806) (xy 148.400613 109.076443) (xy 148.456079 109.217096)
+				(xy 148.547433 109.337562) (xy 148.547437 109.337566) (xy 148.667904 109.42892) (xy 148.667903 109.42892)
+				(xy 148.808556 109.484386) (xy 148.896939 109.494999) (xy 148.896941 109.495) (xy 149.34 109.495)
+				(xy 149.84 109.495) (xy 150.283059 109.495) (xy 150.28306 109.494999) (xy 150.371443 109.484386)
+				(xy 150.512096 109.42892) (xy 150.632562 109.337566) (xy 150.632566 109.337562) (xy 150.72392 109.217096)
+				(xy 150.779386 109.076443) (xy 150.789999 108.98806) (xy 150.79 108.988058) (xy 150.79 108.96306)
+				(xy 151.915 108.96306) (xy 151.925613 109.051443) (xy 151.981079 109.192096) (xy 152.072433 109.312562)
+				(xy 152.072437 109.312566) (xy 152.192904 109.40392) (xy 152.192903 109.40392) (xy 152.333556 109.459386)
+				(xy 152.421939 109.469999) (xy 152.421941 109.47) (xy 152.84 109.47) (xy 153.34 109.47) (xy 153.758059 109.47)
+				(xy 153.75806 109.469999) (xy 153.846443 109.459386) (xy 153.987096 109.40392) (xy 154.107562 109.312566)
+				(xy 154.107566 109.312562) (xy 154.19892 109.192096) (xy 154.254386 109.051443) (xy 154.264999 108.96306)
+				(xy 154.265 108.963058) (xy 154.265 108.77) (xy 153.34 108.77) (xy 153.34 109.47) (xy 152.84 109.47)
+				(xy 152.84 108.77) (xy 151.915 108.77) (xy 151.915 108.96306) (xy 150.79 108.96306) (xy 150.79 108.7825)
+				(xy 149.84 108.7825) (xy 149.84 109.495) (xy 149.34 109.495) (xy 149.34 108.7825) (xy 148.39 108.7825)
+				(xy 148.39 108.98806) (xy 139.5005 108.98806) (xy 139.5005 96.851659) (xy 145.4345 96.851659) (xy 145.4345 97.398339)
+				(xy 145.440562 97.457678) (xy 145.444651 97.497708) (xy 145.495349 97.650707) (xy 145.497998 97.658699)
+				(xy 145.519829 97.694092) (xy 145.587032 97.803044) (xy 145.706956 97.922968) (xy 145.713722 97.927141)
+				(xy 145.76665 97.983241) (xy 145.7845 98.053957) (xy 145.7845 98.842148) (xy 145.764538 98.916648)
+				(xy 145.759389 98.924928) (xy 145.692681 99.024763) (xy 145.692675 99.024773) (xy 145.621026 99.197751)
+				(xy 145.5845 99.381383) (xy 145.5845 99.568616) (xy 145.621026 99.752248) (xy 145.692675 99.925226)
+				(xy 145.69268 99.925235) (xy 145.703603 99.941582) (xy 145.796698 100.080908) (xy 145.929092 100.213302)
+				(xy 146.032174 100.282179) (xy 146.084764 100.317319) (xy 146.084773 100.317324) (xy 146.135436 100.338309)
+				(xy 146.257749 100.388973) (xy 146.441384 100.4255) (xy 146.628616 100.4255) (xy 146.812251 100.388973)
+				(xy 146.985231 100.317322) (xy 147.140908 100.213302) (xy 147.273302 100.080908) (xy 147.377322 99.925231)
+				(xy 147.448973 99.752251) (xy 147.4855 99.568616) (xy 147.4855 99.381384) (xy 147.448973 99.197749)
+				(xy 147.377322 99.024769) (xy 147.367348 99.009842) (xy 147.310611 98.924928) (xy 147.285819 98.851893)
+				(xy 147.2855 98.842148) (xy 147.2855 98.053957) (xy 147.305462 97.979457) (xy 147.356277 97.927141)
+				(xy 147.363044 97.922968) (xy 147.482968 97.803044) (xy 147.572003 97.658697) (xy 147.625349 97.497708)
+				(xy 147.6355 97.398345) (xy 147.635499 96.851656) (xy 147.625349 96.752292) (xy 147.572003 96.591303)
+				(xy 147.482968 96.446956) (xy 147.363044 96.327032) (xy 147.3561 96.322749) (xy 147.218699 96.237998)
+				(xy 147.218698 96.237997) (xy 147.218697 96.237997) (xy 147.057708 96.184651) (xy 146.958345 96.1745)
+				(xy 146.95834 96.1745) (xy 146.111659 96.1745) (xy 146.012291 96.184651) (xy 145.8513 96.237998)
+				(xy 145.706955 96.327032) (xy 145.587032 96.446955) (xy 145.497998 96.5913) (xy 145.444651 96.752291)
+				(xy 145.4345 96.851659) (xy 139.5005 96.851659) (xy 139.5005 95.606383) (xy 155.6395 95.606383)
+				(xy 155.6395 95.793616) (xy 155.676026 95.977248) (xy 155.747675 96.150226) (xy 155.74768 96.150235)
+				(xy 155.791626 96.216004) (xy 155.851698 96.305908) (xy 155.984092 96.438302) (xy 156.040851 96.476227)
+				(xy 156.139764 96.542319) (xy 156.139773 96.542324) (xy 156.190436 96.563309) (xy 156.312749 96.613973)
+				(xy 156.496384 96.6505) (xy 156.683616 96.6505) (xy 156.867251 96.613973) (xy 157.040231 96.542322)
+				(xy 157.195908 96.438302) (xy 157.230069 96.404141) (xy 157.296864 96.365577) (xy 157.335428 96.3605)
+				(xy 158.878836 96.3605) (xy 158.953336 96.380462) (xy 158.984195 96.404141) (xy 160.805859 98.225805)
+				(xy 160.844423 98.2926) (xy 160.8495 98.331164) (xy 160.8495 98.393616) (xy 160.886026 98.577248)
+				(xy 160.957675 98.750226) (xy 160.95768 98.750235) (xy 160.989041 98.797169) (xy 161.061698 98.905908)
+				(xy 161.194092 99.038302) (xy 161.264407 99.085285) (xy 161.349764 99.142319) (xy 161.349773 99.142324)
+				(xy 161.356555 99.145133) (xy 161.522749 99.213973) (xy 161.706384 99.2505) (xy 161.893616 99.2505)
+				(xy 162.077251 99.213973) (xy 162.250231 99.142322) (xy 162.405908 99.038302) (xy 162.538302 98.905908)
+				(xy 162.642322 98.750231) (xy 162.713973 98.577251) (xy 162.7505 98.393616) (xy 162.7505 98.206384)
+				(xy 162.713973 98.022749) (xy 162.642322 97.849769) (xy 162.538302 97.694092) (xy 162.405908 97.561698)
+				(xy 162.343354 97.519901) (xy 162.250235 97.45768) (xy 162.250226 97.457675) (xy 162.09684 97.394141)
+				(xy 162.077251 97.386027) (xy 162.077249 97.386026) (xy 162.077248 97.386026) (xy 161.893616 97.3495)
+				(xy 161.831164 97.3495) (xy 161.756664 97.329538) (xy 161.725805 97.305859) (xy 159.811818 95.391872)
+				(xy 159.752398 95.332451) (xy 159.752387 95.332442) (xy 159.60589 95.226005) (xy 159.605889 95.226004)
+				(xy 159.444535 95.143789) (xy 159.272307 95.087829) (xy 159.272307 95.087828) (xy 159.18287 95.073663)
+				(xy 159.093438 95.059499) (xy 159.093433 95.059499) (xy 159.002891 95.0595) (xy 157.355428 95.0595)
+				(xy 157.280928 95.039538) (xy 157.250069 95.015859) (xy 157.195911 94.961701) (xy 157.195908 94.961698)
+				(xy 157.09473 94.894093) (xy 157.040235 94.85768) (xy 157.040226 94.857675) (xy 156.903073 94.800865)
+				(xy 156.867251 94.786027) (xy 156.867249 94.786026) (xy 156.867248 94.786026) (xy 156.683616 94.7495)
+				(xy 156.496384 94.7495) (xy 156.312751 94.786026) (xy 156.139773 94.857675) (xy 156.139764 94.85768)
+				(xy 155.984093 94.961697) (xy 155.984088 94.961701) (xy 155.851701 95.094088) (xy 155.851697 95.094093)
+				(xy 155.74768 95.249764) (xy 155.747675 95.249773) (xy 155.676026 95.422751) (xy 155.6395 95.606383)
+				(xy 139.5005 95.606383) (xy 139.5005 94.091102) (xy 145.635 94.091102) (xy 145.645131 94.175466)
 				(xy 145.645132 94.175468) (xy 145.698075 94.309725) (xy 145.698075 94.309726) (xy 145.785277 94.424719)
 				(xy 145.78528 94.424722) (xy 145.900274 94.511924) (xy 146.034531 94.564867) (xy 146.034533 94.564868)
 				(xy 146.118897 94.574999) (xy 146.118899 94.575) (xy 146.285 94.575) (xy 146.785 94.575) (xy 146.951101 94.575)

@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Peter The Power Meter")
-		(date "2026-06-17")
-		(rev "01")
+		(date "2026-05-30")
+		(rev "00")
 		(company "CtrlAltJon")
 	)
 	(lib_symbols
@@ -14437,15 +14437,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C870906"
-			(at 46.482 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9715c29e-200f-45c2-b9e1-c6b43a55f035")
 		)
@@ -14453,7 +14444,7 @@
 			(uuid "edd2244e-5ea5-4e8f-b8ad-12311feff3cc")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R30")
 					(unit 1)
@@ -14518,7 +14509,7 @@
 			(uuid "9cc2b27d-0c66-4442-8826-137dda61453e")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR023")
 					(unit 1)
@@ -14589,15 +14580,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
-			(at 46.99 146.812 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b50d082b-7702-4bba-bd03-c3e66d5343fc")
 		)
@@ -14605,7 +14587,7 @@
 			(uuid "60803e2f-6d0b-4e00-bd87-609d9d913a98")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C12")
 					(unit 1)
@@ -14647,7 +14629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 179.832 123.952 0)
 			(effects
 				(font
@@ -14656,22 +14638,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 179.832 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 179.832 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14681,7 +14653,7 @@
 			(uuid "cd29f3cd-f9bd-4ef4-b218-879997c2b04f")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R15")
 					(unit 1)
@@ -14723,7 +14695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "HOOYA PJ-320E"
+		(property "Datasheet" "~"
 			(at 43.18 198.882 0)
 			(effects
 				(font
@@ -14732,16 +14704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.5mm Headphone Jack Silver Through Hole Audio Connectors RoHS"
-			(at 43.18 198.882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2939183"
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
 			(at 43.18 198.882 0)
 			(effects
 				(font
@@ -14763,7 +14726,7 @@
 			(uuid "9a12529c-4bf1-4dac-b4e0-fa37fd1c44e0")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J5")
 					(unit 1)
@@ -14827,7 +14790,7 @@
 			(uuid "0fb9240b-6f37-4582-ad94-4749208caebd")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR022")
 					(unit 1)
@@ -14898,15 +14861,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 219.71 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7e8fabeb-fe8d-4d6a-a370-52458db93504")
 		)
@@ -14914,7 +14868,7 @@
 			(uuid "3bf519d8-a992-4ec0-8fb8-ef5d964cc55c")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C5")
 					(unit 1)
@@ -14974,15 +14928,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C110921"
-			(at 65.532 29.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "6bd268c1-3ed5-4eb3-a18b-8274273a38c1")
 		)
@@ -14990,7 +14935,7 @@
 			(uuid "c92e52bf-beee-4520-b8e6-be7a7f5f0ffb")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D2")
 					(unit 1)
@@ -15079,15 +15024,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C90074"
-			(at 26.67 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "430bdb40-5770-4651-9cc5-2a49fa58ff5f")
 		)
@@ -15095,7 +15031,7 @@
 			(uuid "d75909ee-2242-4e28-bec8-7fa156e27b2b")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J1")
 					(unit 1)
@@ -15167,7 +15103,7 @@
 			(uuid "d8cac313-f48c-4186-9740-8c07da5ebaaa")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J11")
 					(unit 1)
@@ -15209,7 +15145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 177.292 107.95 0)
 			(effects
 				(font
@@ -15218,22 +15154,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 177.292 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 177.292 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15243,7 +15169,7 @@
 			(uuid "9615ea0b-85bc-4686-ace2-f9d8be532078")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R13")
 					(unit 1)
@@ -15305,15 +15231,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C37593"
-			(at 65.532 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "5"
 			(uuid "692c222c-b189-41ce-a445-2a243b1049b9")
 		)
@@ -15345,7 +15262,7 @@
 			(uuid "1a1be3c7-d5c6-47a5-b18b-7852f3c5526a")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U5")
 					(unit 1)
@@ -15406,15 +15323,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C870906"
-			(at 36.83 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6a22f4d6-fe68-4dd2-b7d5-89391b7429be")
 		)
@@ -15422,7 +15330,7 @@
 			(uuid "7a070669-ad5e-4d94-a930-3a88b903946e")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R29")
 					(unit 1)
@@ -15466,7 +15374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "±20% 16V 47uF 800mΩ Through Hole,D5xL11mm Aluminum Electrolytic Capacitors RoHS"
+		(property "Datasheet" "~"
 			(at 30.48 66.802 0)
 			(effects
 				(font
@@ -15475,16 +15383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "EEU-FC1C470"
-			(at 30.48 66.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1580807"
+		(property "Description" "Electrolytic Capacitor"
 			(at 30.48 66.802 0)
 			(effects
 				(font
@@ -15500,7 +15399,7 @@
 			(uuid "25fe7206-2518-430c-a794-aa65e31851f1")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C1")
 					(unit 1)
@@ -15561,15 +15460,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C870906"
-			(at 27.432 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e6c8b4c3-278f-4474-9807-cc8213a64f42")
 		)
@@ -15577,7 +15467,7 @@
 			(uuid "3373adb1-fdbe-4c29-a5d4-9f922673e612")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R28")
 					(unit 1)
@@ -15654,7 +15544,7 @@
 			(uuid "27a57300-47f2-4a04-8556-be62c335a19f")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J21")
 					(unit 1)
@@ -15720,7 +15610,7 @@
 			(uuid "89cfdf2e-5f46-4ee3-b097-bd82400ebf9f")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR047")
 					(unit 1)
@@ -15762,7 +15652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RES 470Ω ±1% 250mW 1206"
+		(property "Datasheet" ""
 			(at 198.12 41.402 0)
 			(effects
 				(font
@@ -15771,22 +15661,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "VISHAY CRCW1206470RFKEA"
+		(property "Description" ""
 			(at 198.12 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C844876"
-			(at 198.12 41.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15796,7 +15676,7 @@
 			(uuid "bf5681b6-8db2-4ae7-85dc-a27e4bc975a3")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
 					(unit 1)
@@ -15860,7 +15740,7 @@
 			(uuid "986fc021-43f7-4584-ab7c-219fb761f511")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR09")
 					(unit 1)
@@ -15926,7 +15806,7 @@
 			(uuid "10de1b5a-e44d-40e8-ba08-4a8e37adb6fd")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR033")
 					(unit 1)
@@ -15990,7 +15870,7 @@
 			(uuid "38fd9a23-f032-439c-bb0d-bab6b3eaba1c")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR042")
 					(unit 1)
@@ -16054,7 +15934,7 @@
 			(uuid "3906b729-0e79-4078-9db5-3a741a32377d")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR014")
 					(unit 1)
@@ -16097,7 +15977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "BOURNS MF-NSMF050-2"
+		(property "Datasheet" "~"
 			(at 83.312 35.56 0)
 			(effects
 				(font
@@ -16115,15 +15995,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C75464"
-			(at 83.312 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "0510669e-4b88-42ab-92fe-1a77542adb3c")
 		)
@@ -16131,7 +16002,7 @@
 			(uuid "666dc4ac-4099-455f-80b0-7485dfaeed51")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TH1")
 					(unit 1)
@@ -16195,7 +16066,7 @@
 			(uuid "dad806d8-ab2d-433a-92b2-a79caf289b6f")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR08")
 					(unit 1)
@@ -16263,7 +16134,7 @@
 			(uuid "42a900cd-0a89-4d13-9b5f-32572a0837bb")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J15")
 					(unit 1)
@@ -16361,7 +16232,7 @@
 			(uuid "f4ae33e1-d271-48ae-b95f-d34aac12e2f2")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J4")
 					(unit 1)
@@ -16405,7 +16276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "VISHAY TFPT1206L1002DV"
+		(property "Datasheet" "~"
 			(at 263.144 57.15 0)
 			(effects
 				(font
@@ -16414,16 +16285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW 10kΩ 1206 PTC Thermistors RoHS"
-			(at 263.144 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2154230"
+		(property "Description" "125mW 10kΩ 1206 PTC Thermistors"
 			(at 263.144 57.15 0)
 			(effects
 				(font
@@ -16439,7 +16301,7 @@
 			(uuid "d360d9ec-585d-45a5-ae63-c2376b4df857")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R8")
 					(unit 1)
@@ -16503,7 +16365,7 @@
 			(uuid "e70cdd99-3cfe-4984-ac5f-47ec46861a1f")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0106")
 					(unit 1)
@@ -16545,7 +16407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-070RL"
+		(property "Datasheet" ""
 			(at 90.932 163.322 0)
 			(effects
 				(font
@@ -16554,22 +16416,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0Ω ±1% 250mW 1206"
+		(property "Description" ""
 			(at 90.932 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C137394"
-			(at 90.932 163.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16579,7 +16431,7 @@
 			(uuid "9d170f02-30ec-448c-ba40-81dcbdf4e826")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R16")
 					(unit 1)
@@ -16623,7 +16475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NXP PCF8574T/3,518"
+		(property "Datasheet" "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf"
 			(at 184.912 179.832 0)
 			(effects
 				(font
@@ -16632,22 +16484,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Remote 8-bit I/O expander for I2C-bus with interrupt"
+		(property "Description" ""
 			(at 184.912 179.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7605"
-			(at 184.912 179.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16699,7 +16541,7 @@
 			(uuid "1d7c3d3a-7e21-45dd-8128-c404ada7d9ae")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U6")
 					(unit 1)
@@ -16765,7 +16607,7 @@
 			(uuid "c19332e2-4c81-40e3-8e8a-bbf4f565abc2")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR020")
 					(unit 1)
@@ -16831,7 +16673,7 @@
 			(uuid "3d976ee7-be87-41de-988d-22328b6c012a")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR028")
 					(unit 1)
@@ -16897,7 +16739,7 @@
 			(uuid "b873a70e-04b6-49d6-bf03-3d13c0c889f4")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR030")
 					(unit 1)
@@ -16939,7 +16781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 141.732 89.662 0)
 			(effects
 				(font
@@ -16948,22 +16790,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 141.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 141.732 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16973,7 +16805,7 @@
 			(uuid "94d32cec-7ec9-49ad-b61c-3617967f88ec")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R31")
 					(unit 1)
@@ -17039,7 +16871,7 @@
 			(uuid "7da58f58-c588-4cae-bf98-4dea7caa979b")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR06")
 					(unit 1)
@@ -17083,7 +16915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Samsung Electro-Mechanics CL31B106KBHNNNE CAP CER MLCC 10uF 50V X7R 1206"
+		(property "Datasheet" "~"
 			(at 163.322 36.322 0)
 			(effects
 				(font
@@ -17092,7 +16924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10uF 50V X7R 1206"
+		(property "Description" "CL31B106KBHNNNE"
 			(at 163.322 36.322 0)
 			(effects
 				(font
@@ -17101,7 +16933,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "Note" "CAP CER MLCC 10uF 50V X7R 1206"
 			(at 163.322 36.322 0)
 			(effects
 				(font
@@ -17117,7 +16949,7 @@
 			(uuid "56b0d7e7-0c77-49fc-8825-728e529202ae")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C7")
 					(unit 1)
@@ -17159,7 +16991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 61.722 193.04 0)
 			(effects
 				(font
@@ -17168,22 +17000,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 61.722 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 61.722 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17193,7 +17015,7 @@
 			(uuid "10ff0718-01e2-4c2e-af35-d46b0e115a11")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R18")
 					(unit 1)
@@ -17282,15 +17104,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C90074"
-			(at 30.48 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "41de1213-ec5f-4e2d-88a4-949a78844b7d")
 		)
@@ -17298,7 +17111,7 @@
 			(uuid "87b2fb44-0b2b-403f-b32a-9de6ef8a02a2")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
 					(unit 1)
@@ -17364,7 +17177,7 @@
 			(uuid "8506e92a-a6cf-42a7-b7c5-1abe5ff3272e")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR018")
 					(unit 1)
@@ -17390,7 +17203,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330R"
 			(at 263.144 33.2541 90)
 			(effects
 				(font
@@ -17407,7 +17220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-07330RL"
+		(property "Datasheet" ""
 			(at 263.144 35.56 0)
 			(effects
 				(font
@@ -17416,22 +17229,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 330Ω ±1% 250mW 1206"
+		(property "Description" ""
 			(at 263.144 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C114944"
-			(at 263.144 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17441,7 +17244,7 @@
 			(uuid "2a1edf55-91ba-49b1-afef-2ab2f92b6a40")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R4")
 					(unit 1)
@@ -17484,7 +17287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 251.714 40.64 0)
 			(effects
 				(font
@@ -17493,22 +17296,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 251.714 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 251.714 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17518,7 +17311,7 @@
 			(uuid "6ba05021-ad21-4dd4-bf8e-7fb9d458b5e1")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
 					(unit 1)
@@ -17602,15 +17395,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5184433"
-			(at 187.452 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "15c09bd7-9ffb-4e97-806e-cbb2af25ebd8")
 		)
@@ -17621,7 +17405,7 @@
 			(uuid "c74bd1a4-a80a-468a-9662-136a5c37c361")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Q1")
 					(unit 1)
@@ -17685,7 +17469,7 @@
 			(uuid "eb8bf921-0879-4418-a8ae-9eb62f5148e1")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR027")
 					(unit 1)
@@ -17747,7 +17531,7 @@
 			)
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "LOGO2")
 					(unit 1)
@@ -17789,7 +17573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 177.292 102.87 0)
 			(effects
 				(font
@@ -17798,22 +17582,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 177.292 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 177.292 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17823,7 +17597,7 @@
 			(uuid "68c6707f-e7f7-4abf-8c2f-db90474ba7d9")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R12")
 					(unit 1)
@@ -17887,7 +17661,7 @@
 			(uuid "19f99e35-74e9-45fb-81de-a8e2b054ee27")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR024")
 					(unit 1)
@@ -17951,7 +17725,7 @@
 			(uuid "869f7a41-2e7a-4667-8999-447844ebb396")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR056")
 					(unit 1)
@@ -18015,7 +17789,7 @@
 			(uuid "a1236ea3-06e4-40b0-846b-6742894d0ee0")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0101")
 					(unit 1)
@@ -18081,7 +17855,7 @@
 			(uuid "9f7aacae-4695-4aa1-9b46-f10e6ef12c7a")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR031")
 					(unit 1)
@@ -18106,7 +17880,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "120"
 			(at 367.03 108.3509 90)
 			(effects
 				(font
@@ -18123,7 +17897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-071KL"
+		(property "Datasheet" ""
 			(at 367.03 110.49 0)
 			(effects
 				(font
@@ -18132,22 +17906,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 367.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C131398"
-			(at 367.03 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18157,7 +17921,7 @@
 			(uuid "3268148b-7448-486e-9fcc-bc14a9235e04")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R24")
 					(unit 1)
@@ -18222,7 +17986,7 @@
 			(uuid "9088c6f7-07f6-44ee-b968-28f44ee29c22")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR037")
 					(unit 1)
@@ -18267,7 +18031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SMD-4P,4.2x3.2m"
+		(property "Datasheet" "~"
 			(at 369.062 134.112 0)
 			(effects
 				(font
@@ -18276,22 +18040,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST 1.57N SMD"
+		(property "Description" ""
 			(at 369.062 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C470426"
-			(at 369.062 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18301,7 +18055,7 @@
 			(uuid "fdee8b9c-c5a5-4560-927e-df6db1f37752")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "SW1")
 					(unit 1)
@@ -18343,7 +18097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-071KL"
+		(property "Datasheet" ""
 			(at 72.39 95.25 0)
 			(effects
 				(font
@@ -18352,22 +18106,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 72.39 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C131398"
-			(at 72.39 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18377,7 +18121,7 @@
 			(uuid "8f04fbb8-892e-4490-ade0-519f23e66176")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R33")
 					(unit 1)
@@ -18440,15 +18184,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49246960"
-			(at 194.31 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f096b9dd-d18a-4b15-a4ba-d18edc72dfbb")
 		)
@@ -18456,7 +18191,7 @@
 			(uuid "9888250e-367a-48e8-8494-d9651f2d641e")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "BZ1")
 					(unit 1)
@@ -18498,7 +18233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 177.292 97.79 0)
 			(effects
 				(font
@@ -18507,22 +18242,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 177.292 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 177.292 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18532,7 +18257,7 @@
 			(uuid "370d8bff-1682-4a02-b70a-b4963ab10419")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R11")
 					(unit 1)
@@ -18574,7 +18299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 61.722 204.47 0)
 			(effects
 				(font
@@ -18583,22 +18308,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 61.722 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 61.722 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18608,7 +18323,7 @@
 			(uuid "0b7e7e26-6d44-41cd-9406-e6f0c5fb7f2a")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R19")
 					(unit 1)
@@ -18674,7 +18389,7 @@
 			(uuid "f7338174-6b16-4092-8ee6-91865aac991f")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR019")
 					(unit 1)
@@ -18738,7 +18453,7 @@
 			(uuid "cd6c2052-a083-4d82-a83a-349fc4cdaa58")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR021")
 					(unit 1)
@@ -18802,7 +18517,7 @@
 			(uuid "805eb1d7-55c5-4f35-be33-4f2e5fbc23c0")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
 					(unit 1)
@@ -18866,7 +18581,7 @@
 			(uuid "46502783-b8dd-42a1-9013-1fccb1303162")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR016")
 					(unit 1)
@@ -18908,7 +18623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 177.292 87.63 0)
 			(effects
 				(font
@@ -18917,22 +18632,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 177.292 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 177.292 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18942,7 +18647,7 @@
 			(uuid "d0dbf5c4-4ad1-4301-8cf5-c9d8a9a0e552")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R9")
 					(unit 1)
@@ -19006,7 +18711,7 @@
 			(uuid "cb76de71-df77-40bd-bbac-1408120216a9")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR05")
 					(unit 1)
@@ -19048,7 +18753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 177.292 113.03 0)
 			(effects
 				(font
@@ -19057,22 +18762,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 177.292 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 177.292 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19082,7 +18777,7 @@
 			(uuid "b5fd1915-271a-4bcd-8fdb-33716d80bfb2")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R14")
 					(unit 1)
@@ -19146,7 +18841,7 @@
 			(uuid "d150e530-c7e5-4b0b-a012-0fa5c9b95301")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR029")
 					(unit 1)
@@ -19209,15 +18904,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C84681"
-			(at 182.88 51.562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "0345c10a-1b20-4c14-960b-6913711892ba")
 		)
@@ -19267,7 +18953,7 @@
 			(uuid "6f5bf5be-7aaf-4366-b9f7-bea98d575919")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U3")
 					(unit 1)
@@ -19338,15 +19024,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 200.152 159.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "123c189c-4893-4fcd-892a-298bb7458380")
 		)
@@ -19354,7 +19031,7 @@
 			(uuid "33ac8511-9634-4e5f-b8ba-7c12a0d4ada9")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C14")
 					(unit 1)
@@ -19397,7 +19074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RES 100kΩ ±1% 250mW 1206"
+		(property "Datasheet" ""
 			(at 263.144 51.562 0)
 			(effects
 				(font
@@ -19406,22 +19083,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "VISHAY CRCW1206100KFKEA"
+		(property "Description" ""
 			(at 263.144 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C844863"
-			(at 263.144 51.562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19431,7 +19098,7 @@
 			(uuid "70c54c95-17f2-4e29-a4bf-154c084df25b")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R22")
 					(unit 1)
@@ -19457,7 +19124,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 263.144 44.1761 90)
 			(effects
 				(font
@@ -19474,7 +19141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RES 220Ω ±1% 250mW 1206"
+		(property "Datasheet" ""
 			(at 263.144 46.482 0)
 			(effects
 				(font
@@ -19483,22 +19150,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "YAGEO RC1206FR-07220RL"
+		(property "Description" ""
 			(at 263.144 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C137353"
-			(at 263.144 46.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19508,7 +19165,7 @@
 			(uuid "2cdebfa5-94c7-4b96-905f-894394fdc404")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R21")
 					(unit 1)
@@ -19572,7 +19229,7 @@
 			(uuid "f937af07-5b07-4183-9f07-0a4606a52c38")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR040")
 					(unit 1)
@@ -19643,15 +19300,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 54.61 146.812 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5d91b498-948f-46ce-b9e2-b82139a8b6a6")
 		)
@@ -19659,7 +19307,7 @@
 			(uuid "1d3b8a31-007f-4b2b-b340-13d15d48b613")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C11")
 					(unit 1)
@@ -19719,15 +19367,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86781"
-			(at 50.292 62.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "516f2250-1268-4d7f-aa3c-759d73d35956")
 		)
@@ -19738,7 +19377,7 @@
 			(uuid "ca6d2219-08f4-44fa-9aa3-fef2ec9507dc")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U1")
 					(unit 1)
@@ -19804,7 +19443,7 @@
 			(uuid "0829c724-6ea9-4906-8038-702a5378f915")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR026")
 					(unit 1)
@@ -19875,15 +19514,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 210.82 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a26f98e0-8eee-4b13-8484-6c31e3488a61")
 		)
@@ -19891,7 +19521,7 @@
 			(uuid "78106979-6692-4c84-a9a3-3e2b02e5b082")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C9")
 					(unit 1)
@@ -19933,7 +19563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-07100RL"
+		(property "Datasheet" ""
 			(at 367.03 39.37 0)
 			(effects
 				(font
@@ -19942,22 +19572,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 100Ω ±1% 250mW 1206"
+		(property "Description" ""
 			(at 367.03 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C137392"
-			(at 367.03 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19967,7 +19587,7 @@
 			(uuid "5ef45753-3e63-440d-998b-6e13f5c93ded")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R5")
 					(unit 1)
@@ -20029,15 +19649,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C840591"
-			(at 29.21 151.892 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bd8b9ce6-9647-4d61-869e-8e5fc9707ee6")
 		)
@@ -20045,7 +19656,7 @@
 			(uuid "a3108bbc-0041-4ae4-88e1-d04ab06061bc")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "FB1")
 					(unit 1)
@@ -20111,7 +19722,7 @@
 			(uuid "dc728e37-f26f-42ae-8cce-f174cb8e594f")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR044")
 					(unit 1)
@@ -20171,15 +19782,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6007475"
-			(at 48.26 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "6"
 			(uuid "6a2b1f4c-6eac-43d1-8c24-3b2b9cdf0237")
 		)
@@ -20199,7 +19801,7 @@
 			(uuid "d5fbcb57-3825-4aee-852e-f0f8cf446da9")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J2")
 					(unit 1)
@@ -20243,7 +19845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Samsung Electro-Mechanics CL31A226KOCLNNC"
+		(property "Datasheet" "CL31A226KOCLNNC"
 			(at 229.362 88.9 0)
 			(effects
 				(font
@@ -20261,15 +19863,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C318754"
-			(at 229.362 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a284200c-1079-424e-8de7-543bcd145aae")
 		)
@@ -20277,7 +19870,7 @@
 			(uuid "6d847eca-ffb4-47a3-a14f-9881b547711f")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C6")
 					(unit 1)
@@ -20321,7 +19914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Samsung Electro-Mechanics CL31A226KOCLNNC"
+		(property "Datasheet" "CL31A226KOCLNNC"
 			(at 386.08 58.42 0)
 			(effects
 				(font
@@ -20339,15 +19932,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C318754"
-			(at 386.08 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2c16a275-0888-49af-82f2-1acdf57ebc1e")
 		)
@@ -20355,7 +19939,7 @@
 			(uuid "f70fa45c-25f6-4e04-8c58-cb96b3154455")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C10")
 					(unit 1)
@@ -20421,7 +20005,7 @@
 			(uuid "803f7e72-88a5-4bae-91ef-7a22d8e8f767")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR04")
 					(unit 1)
@@ -20485,7 +20069,7 @@
 			(uuid "2774c22f-cfe1-4d76-8d20-92f5e3988667")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR013")
 					(unit 1)
@@ -20550,7 +20134,7 @@
 			(uuid "c348efcd-b335-47f6-bc78-473c6d599241")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0128")
 					(unit 1)
@@ -20623,7 +20207,7 @@
 			(uuid "9e72e48a-2089-4069-929c-625794553951")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J22")
 					(unit 1)
@@ -20687,7 +20271,7 @@
 			(uuid "6cb82463-9837-4b7b-bf36-990f3d4b0942")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0110")
 					(unit 1)
@@ -20752,7 +20336,7 @@
 			(uuid "ced38a9e-c38c-4ed2-b739-8139e98d1491")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR039")
 					(unit 1)
@@ -20813,15 +20397,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C125191"
-			(at 59.182 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "d879b814-76a5-4601-b8f4-a9c8d4f32ea7")
 		)
@@ -20835,7 +20410,7 @@
 			(uuid "8337dc5b-1e83-4454-bc40-16f8e1859e55")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TR1")
 					(unit 1)
@@ -20877,7 +20452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-070RL"
+		(property "Datasheet" ""
 			(at 84.582 173.482 0)
 			(effects
 				(font
@@ -20886,22 +20461,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0Ω ±1% 250mW 1206"
+		(property "Description" ""
 			(at 84.582 173.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C137394"
-			(at 84.582 173.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20911,7 +20476,7 @@
 			(uuid "f1405d89-fd88-4d96-835e-727755630832")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R17")
 					(unit 1)
@@ -20975,7 +20540,7 @@
 			(uuid "de2c1123-2344-4223-8f00-ec594bb50576")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR046")
 					(unit 1)
@@ -21017,7 +20582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 84.582 168.91 0)
 			(effects
 				(font
@@ -21026,22 +20591,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 84.582 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 84.582 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21051,7 +20606,7 @@
 			(uuid "123db90b-1bbe-4f18-be95-57c49f53bb81")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R6")
 					(unit 1)
@@ -21093,7 +20648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 141.732 101.6 0)
 			(effects
 				(font
@@ -21102,22 +20657,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 141.732 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 141.732 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21127,7 +20672,7 @@
 			(uuid "3c285778-1923-4fab-bd8b-340eb4acc300")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R32")
 					(unit 1)
@@ -21193,7 +20738,7 @@
 			(uuid "f107b02a-a051-42b2-badb-e6f3aec3e5cf")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR043")
 					(unit 1)
@@ -21264,15 +20809,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 62.992 66.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3e95ea0a-2c0c-461b-abe6-085fda83aa28")
 		)
@@ -21280,7 +20816,7 @@
 			(uuid "66271374-bff0-494e-8614-f614d8fce5c4")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C3")
 					(unit 1)
@@ -21353,7 +20889,7 @@
 			(uuid "5d785a4b-864a-42f2-ab4b-8a33299e65a8")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J23")
 					(unit 1)
@@ -21397,7 +20933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ROHM UMH3NFHATN"
+		(property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf"
 			(at 219.71 50.292 0)
 			(effects
 				(font
@@ -21416,15 +20952,6 @@
 			)
 		)
 		(property "Note" "TRANS PREBIAS 50V SOT-363"
-			(at 215.9 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3194552"
 			(at 215.9 50.292 0)
 			(effects
 				(font
@@ -21452,7 +20979,7 @@
 			(uuid "a0dca838-b98f-41a2-be7f-fd71df06a733")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U4")
 					(unit 2)
@@ -21516,7 +21043,7 @@
 			(uuid "d679c548-d555-4f44-bace-23f5bafecb36")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR011")
 					(unit 1)
@@ -21558,7 +21085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-071KL"
+		(property "Datasheet" ""
 			(at 176.53 222.25 0)
 			(effects
 				(font
@@ -21567,22 +21094,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 176.53 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C131398"
-			(at 176.53 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21592,7 +21109,7 @@
 			(uuid "f7ac553c-8265-47a4-bf09-72b81ea0d341")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R23")
 					(unit 1)
@@ -21663,15 +21180,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 169.672 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ba9ecef2-fbb4-403f-adc4-b087a2713250")
 		)
@@ -21679,7 +21187,7 @@
 			(uuid "0ae44ffe-d639-410a-9d63-e8f9a4d43851")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C8")
 					(unit 1)
@@ -21750,7 +21258,7 @@
 			(uuid "b65daadd-1c8b-428e-bc90-b6d8fc857bff")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J14")
 					(unit 1)
@@ -21815,7 +21323,7 @@
 			(uuid "6d3e7cc9-8493-4b24-ba8a-b19e65b40e71")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR036")
 					(unit 1)
@@ -21860,7 +21368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ROHM UMH3NFHATN"
+		(property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf"
 			(at 219.71 64.262 0)
 			(effects
 				(font
@@ -21879,15 +21387,6 @@
 			)
 		)
 		(property "Note" "TRANS PREBIAS 50V SOT-363"
-			(at 215.9 64.262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3194552"
 			(at 215.9 64.262 0)
 			(effects
 				(font
@@ -21915,7 +21414,7 @@
 			(uuid "a0dca838-b98f-41a2-be7f-fd71df06a734")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U4")
 					(unit 1)
@@ -21957,7 +21456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RES 33kΩ ±1% 250mW 1206"
+		(property "Datasheet" ""
 			(at 251.714 46.482 0)
 			(effects
 				(font
@@ -21966,22 +21465,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "VISHAY CRCW120633K0FKEAC"
+		(property "Description" ""
 			(at 251.714 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7233588"
-			(at 251.714 46.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21991,7 +21480,7 @@
 			(uuid "38ec9bc1-bb77-4a1b-9e56-cdc070b7d88e")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R7")
 					(unit 1)
@@ -22055,7 +21544,7 @@
 			(uuid "c526e366-b9b8-42be-802d-d29f24da3405")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0113")
 					(unit 1)
@@ -22126,15 +21615,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
-			(at 135.382 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a3ef80c0-2949-4d61-bfe3-5538cce76a01")
 		)
@@ -22142,7 +21622,7 @@
 			(uuid "94d38d74-4cc1-43ec-a65d-e4b9aaade8cf")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C15")
 					(unit 1)
@@ -22206,7 +21686,7 @@
 			(uuid "919553eb-b1d2-4f92-839d-80de561e7473")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR010")
 					(unit 1)
@@ -22251,7 +21731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Samsung Electro-Mechanics CL31B106KBHNNNE"
+		(property "Datasheet" "~"
 			(at 55.372 204.47 0)
 			(effects
 				(font
@@ -22260,25 +21740,15 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10uF 50V X7R 1206"
+		(property "Description" ""
 			(at 55.372 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Note" "MLCC, Ceramico, X7R (o X5R), 1206, 16V o 25V"
-			(at 55.372 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C89632"
 			(at 55.372 204.47 0)
 			(effects
 				(font
@@ -22294,7 +21764,7 @@
 			(uuid "591753a6-6dbd-4c89-b3fb-dab8db1803e9")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C13")
 					(unit 1)
@@ -22339,7 +21809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LITEON LTW-150TK"
+		(property "Datasheet" "~"
 			(at 377.952 110.49 0)
 			(effects
 				(font
@@ -22348,22 +21818,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED WHITE 1206 SMD"
+		(property "Description" ""
 			(at 377.952 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C133134"
-			(at 377.952 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22373,7 +21833,7 @@
 			(uuid "a9036f94-0b5d-4ca0-b547-e5fc2d7f5318")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "LD1")
 					(unit 1)
@@ -22438,7 +21898,7 @@
 			(uuid "38a73639-0f4c-4691-ab66-fce917826c5d")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR034")
 					(unit 1)
@@ -22480,7 +21940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 179.832 130.302 0)
 			(effects
 				(font
@@ -22489,22 +21949,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 179.832 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 179.832 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22514,7 +21964,7 @@
 			(uuid "f37a73fd-c0e7-47a6-abb8-d8f84b4510f0")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R20")
 					(unit 1)
@@ -22574,15 +22024,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C110921"
-			(at 65.532 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "a67e9fc1-3e8c-4e5d-b298-b434b2741ee7")
 		)
@@ -22590,7 +22031,7 @@
 			(uuid "aedf26cd-a3f5-4b3c-81ee-48f9d7df2070")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D1")
 					(unit 1)
@@ -22654,7 +22095,7 @@
 			(uuid "455f359d-ab4b-490b-90d2-8b824909d7f8")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR032")
 					(unit 1)
@@ -22731,7 +22172,7 @@
 			(uuid "d143ccce-a01d-4648-9cbf-28ed5cc773b9")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J20")
 					(unit 1)
@@ -22793,7 +22234,7 @@
 			)
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "LOGO1")
 					(unit 1)
@@ -22859,7 +22300,7 @@
 			(uuid "a5d04ce1-7f3c-4f82-8ffc-978d5ed07396")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR01")
 					(unit 1)
@@ -22923,7 +22364,7 @@
 			(uuid "81e2bfe8-f1ec-4989-8168-0a40d39c78ea")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR02")
 					(unit 1)
@@ -22987,7 +22428,7 @@
 			(uuid "af0a2475-4130-4cf0-b550-2574a3dc98be")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR045")
 					(unit 1)
@@ -23052,7 +22493,7 @@
 			(uuid "71d84e2a-465c-4a71-9b32-639813fbc700")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR053")
 					(unit 1)
@@ -23123,15 +22564,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2167356"
-			(at 36.83 66.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ed554fd7-0e7c-4e24-b712-eca60eaab55d")
 		)
@@ -23139,7 +22571,7 @@
 			(uuid "21d6cd89-5785-401d-8fa4-e27fa8fb4366")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
 					(unit 1)
@@ -23203,7 +22635,7 @@
 			(uuid "08ef439e-7c34-46a3-8c25-f6e0edda13f4")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR054")
 					(unit 1)
@@ -23247,7 +22679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Ai-Thinker ESP-12F(ESP8266MOD)"
+		(property "Datasheet" "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf"
 			(at 205.232 114.3 0)
 			(effects
 				(font
@@ -23256,22 +22688,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.4GHz ESP8266 Chip On-board PCB Antenna -90dBm SMD,24x16mm RF Transceiver Modules and Modems RoHS"
+		(property "Description" ""
 			(at 214.122 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C82891"
-			(at 214.122 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23341,7 +22763,7 @@
 			(uuid "512eb551-e759-4907-8d91-7851a993543e")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 1)
@@ -23405,7 +22827,7 @@
 			(uuid "916f3131-4e27-4aee-9952-fe7c3242c277")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR015")
 					(unit 1)
@@ -23447,7 +22869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RES 470Ω ±1% 250mW 1206"
+		(property "Datasheet" ""
 			(at 244.602 104.14 0)
 			(effects
 				(font
@@ -23456,21 +22878,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "VISHAY CRCW1206470RFKEA"
+		(property "Description" ""
 			(at 244.602 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC" "C844876"
-			(at 244.602 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23480,7 +22893,7 @@
 			(uuid "15ac5d0d-a381-4a88-be2d-8395656c9090")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R2")
 					(unit 1)
@@ -23542,7 +22955,7 @@
 			)
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "LOGO3")
 					(unit 1)
@@ -23569,7 +22982,7 @@
 			)
 		)
 		(property "Value" "Schurter UMT250 3403.0160.24"
-			(at 49.2759 110.998 90)
+			(at 41.4019 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23604,15 +23017,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3163460"
-			(at 29.972 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "59c0dfb7-d4ab-4f4e-a751-88811d57eba8")
 		)
@@ -23620,7 +23024,7 @@
 			(uuid "0085c89c-20dd-4900-b77c-ceecc065f23e")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "F1")
 					(unit 1)
@@ -23684,7 +23088,7 @@
 			(uuid "b830ac78-1ebb-4636-b554-920aafc1c26f")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR025")
 					(unit 1)
@@ -23747,15 +23151,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3018540"
-			(at 186.182 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "89a4541e-3c84-47a1-8d39-ea58eb19158c")
 		)
@@ -23763,7 +23158,7 @@
 			(uuid "5423de9c-8aab-4c7e-95c9-3c3ffeb2026c")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D3")
 					(unit 1)
@@ -23807,7 +23202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "±20% 16V 100uF Through Hole,D5xL11mm Aluminum Electrolytic Capacitors RoHS"
+		(property "Datasheet" "~"
 			(at 69.342 66.802 0)
 			(effects
 				(font
@@ -23816,16 +23211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ECA-1CHG101"
-			(at 69.342 66.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1589590"
+		(property "Description" "Electrolytic Capacitor"
 			(at 69.342 66.802 0)
 			(effects
 				(font
@@ -23841,7 +23227,7 @@
 			(uuid "94cbfaac-705a-40af-98ff-1aa3a3cbbce2")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C4")
 					(unit 1)
@@ -23912,7 +23298,7 @@
 			(uuid "52556367-0cd6-48be-866c-b10a0603bae1")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J10")
 					(unit 1)
@@ -23957,7 +23343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SMD-4P,4.2x3.2m"
+		(property "Datasheet" "3.2x4.2"
 			(at 369.062 122.682 0)
 			(effects
 				(font
@@ -23966,7 +23352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST 1.57N SMD"
+		(property "Description" "WS-TASV SMT Tactile Switches 2.5mm 160g 50mA 16V Black"
 			(at 369.062 127.762 0)
 			(effects
 				(font
@@ -23975,7 +23361,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470426"
+		(property "Note" "2 Alternative codes present in LCSC.com SKRPANE010 and C49234124"
 			(at 369.062 127.762 0)
 			(effects
 				(font
@@ -23991,7 +23377,7 @@
 			(uuid "f750d2b6-8f70-42c5-88cd-04fc4222b9fd")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "SW2")
 					(unit 1)
@@ -24055,7 +23441,7 @@
 			(uuid "aeeb3d18-739d-4759-839d-2d456b399a17")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR07")
 					(unit 1)
@@ -24120,7 +23506,7 @@
 			(uuid "0f115e92-8e5b-4b7b-94b3-aa4df9e43fc7")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR035")
 					(unit 1)
@@ -24162,7 +23548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO RC1206FR-0710KL"
+		(property "Datasheet" ""
 			(at 177.292 92.71 0)
 			(effects
 				(font
@@ -24171,22 +23557,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10kΩ ±1% 250mW 1206"
+		(property "Description" ""
 			(at 177.292 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C132649"
-			(at 177.292 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -24196,7 +23572,7 @@
 			(uuid "c07732d5-9723-424e-80df-512f37f67eab")
 		)
 		(instances
-			(project "sch-14_PeterThePowerMeter"
+			(project "sch-14_PowerMeter-DIN-ESP8266"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R10")
 					(unit 1)

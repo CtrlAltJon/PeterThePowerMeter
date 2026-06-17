@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.4,
-          "height": 2.6,
-          "width": 1.9
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -474,7 +474,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -495,7 +495,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sch-14_PeterThePowerMeter.kicad_pro",
+    "filename": "PeterThePowerMeter.kicad_pro",
     "version": 3
   },
   "net_settings": {

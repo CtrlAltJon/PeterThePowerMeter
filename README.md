@@ -26,6 +26,11 @@
 
 ## 📜 Revision History
 * **00:** First release (30/05/2026)
+* **01:** Hardware optimizations and professional safety compliance updates (17/06/2026)
+  * **Complete 2.5mm High-Voltage Isolation:** Optimized the High Voltage (HV) layout to strictly enforce a minimum 2.5mm track-to-track clearance across the entire mains section. This includes adding physical PCB isolation slots (milling) between R28, R29, F1, and J3 (pin 2), and shifting transformer TR1 along with adjacent resistors slightly upward to eliminate any tight spacings.
+  * **Industrial-Grade Reinforced Insulation:** Preserved the robust **8.0mm isolation barrier** natively designed between the HV and Low Voltage (LV) domains. By combining this wide clearance with the new track-to-track optimizations, the board fully satisfies the strict **Reinforced Insulation** requirements of the **IEC/EN 62368-1** standard (aligning with household and industrial appliance safety regulations like IEC 60335-1 / IEC 60730-1), drastically setting this architecture apart from typical, uncertified DIY designs.
+  * **Power Rail & Logic Level Optimization:** Removed 1 pin from connector J11 to eliminate the +5VDC routing to the lateral pcb, successfully migrating the CH340C USB-to-Serial subsystem entirely to a +3.3VDC power rail.
+  * **Component Reconfiguration:** Rewired pin 4 (V3) of the CH340C directly to the +3.3VDC rail (mandatory for stable 3.3V operation) while retaining C9 in the layout to act as an active power supply decoupling filter instead of a standard bypass to GND.
 
 
 ## 💡 Design Rationale & Project Overview
@@ -69,8 +74,8 @@ The device supports 2 power input options and 1 input 230VAC for Voltage reading
 > **No reverse polarity protection:** This input currently lacks reverse polarity protection; correct orientation is mandatory.
 
 <p align="center">
-  <a href="/Images/guide-docs/Guide_J1.png">
-    <img src="/Images/guide-docs/Guide_J1.png" width="200" alt="J1 No reverse polarity protection">
+  <a href="/Images/guide-docs/Guide_J1_Rev-01.png">
+    <img src="/Images/guide-docs/Guide_J1_Rev-01.png" width="200" alt="J1 No reverse polarity protection">
   </a>
 </p>
 
@@ -81,8 +86,8 @@ The device supports 2 power input options and 1 input 230VAC for Voltage reading
 * **AC Voltage Input (J3):** High-voltage input for the ZMPT107-1 transformer.
     * *Polarity Recommendation:* Although the transformer operates on AC, it is strictly recommended to respect the Phase (L) and Neutral (N) markings.
     <p align="center">
-      <a href="/Images/guide-docs/Guide_J3.png">
-        <img src="/Images/guide-docs/Guide_J3.png" width="200" alt="J3 High-voltage input">
+      <a href="/Images/guide-docs/Guide_J3_Rev-01.png">
+        <img src="/Images/guide-docs/Guide_J3_Rev-01.png" width="200" alt="J3 High-voltage input">
       </a>
     </p>
 
@@ -150,22 +155,22 @@ The device features a responsive Web UI. Users can connect via browser to the de
 
 ## Assembly Layout: TOP Layer
 <p align="center">
-  <a href="/Images/guide-docs/Guide_Assembly-Top.png">
-    <img src="/Images/guide-docs/Guide_Assembly-Top.png" width="300" alt="Assembly Layout Top">
+  <a href="/Images/guide-docs/Guide_Assembly-Top_Rev-01.png">
+    <img src="/Images/guide-docs/Guide_Assembly-Top_Rev-01.png" width="300" alt="Assembly Layout Top">
   </a>
 </p>
 
 ## Assembly Layout: BOTTOM Layer
 <p align="center">
-  <a href="/Images/guide-docs/Guide_Assembly-Bottom.png">
-    <img src="/Images/guide-docs/Guide_Assembly-Bottom.png" width="300" alt="Assembly Layout Bottom">
+  <a href="/Images/guide-docs/Guide_Assembly-Bottom_Rev-01.png">
+    <img src="/Images/guide-docs/Guide_Assembly-Bottom_Rev-01.png" width="300" alt="Assembly Layout Bottom">
   </a>
 </p>
 
 ## Dimensions
 <p align="center">
-  <a href="/Images/guide-docs/Guide_Dimensions.png">
-    <img src="/Images/guide-docs/Guide_Dimensions.png" width="300" alt="Dimensions">
+  <a href="/Images/guide-docs/Guide_Dimensions_Rev-01.png">
+    <img src="/Images/guide-docs/Guide_Dimensions_Rev-01.png" width="300" alt="Dimensions">
   </a>
 </p>
 

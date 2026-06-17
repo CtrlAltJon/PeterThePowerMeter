@@ -1,4 +1,4 @@
-26726635691094828
+26730197584968818
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -72702,6 +72702,13 @@ RaspberryPI_3B
 48
 48
 My_Lybrary_Footprint
+Relay_APAN3105
+Relay HF46F-G
+Relay HF46
+0
+4
+4
+My_Lybrary_Footprint
 Relay_HF46F-G
 Relay HF46F-G
 Relay HF46
@@ -72722,6 +72729,13 @@ SOIC 24
 0
 24
 24
+My_Lybrary_Footprint
+Senza-titolo
+
+
+0
+0
+0
 My_Lybrary_Footprint
 TO-220-3_Orizzontale_Gap
 TO-220-3 Orizzontale Spaziatura pin centrale
