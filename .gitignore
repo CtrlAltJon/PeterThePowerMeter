@@ -1,17 +1,21 @@
-# Build artifacts
-.pio/
-.build/
-.vs/
-.vscode/
+**/.pio/
+**/.pioenvs/
+**/.piolibdeps/
+**/.build/
+**/.vs/
+**/.vscode/
+**/.cursor/
+**/.continue/
+**/.cline/
 
-# Environment
 .env
 local.json
 
-# Compiled firmware
-*.bin
-*.elf
-*.map
+.DS_Store
+Thumbs.db
+**/*.bin
+**/*.elf
+**/*.map
+*.log
 
-#Others
-OLD/
+**/OLD/
